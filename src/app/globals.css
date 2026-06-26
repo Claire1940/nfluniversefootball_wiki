@@ -30,9 +30,9 @@
     --chart-4: 186 55% 60%;
     --chart-5: 186 60% 45%;
 
-    /* 导航页主题色 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* 更浅的青色高亮 */
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 221 83% 53%;        /* blue-600 / #2563EB，NFL 蓝主色 */
+    --nav-theme-light: 221 83% 63%;  /* 更浅的蓝色高亮 */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -76,8 +76,8 @@
     --chart-5: 186 60% 45%;
 
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* hover/active 高亮 */
+    --nav-theme: 222 47% 11%;        /* deep navy / #0F172A，默认推荐 */
+    --nav-theme-light: 217 91% 60%;  /* electric blue / #3B82F6，hover/active 高亮 */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
