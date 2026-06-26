@@ -24,6 +24,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -39,6 +40,7 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 
@@ -87,25 +89,42 @@ function statusBadgeClass(status: string): string {
 }
 
 // 模块标题块（eyebrow + 装饰图标 + 标题 + intro）
+// 若该模块匹配到文章内页，标题渲染为可点击链接
 function ModuleHeader({
   sectionId,
   eyebrow,
   title,
   intro,
+  moduleKey,
+  linkMap,
 }: {
   sectionId: keyof typeof MODULE_EYEBROW_ICON;
   eyebrow: string;
   title: string;
   intro: string;
+  moduleKey?: string;
+  linkMap?: ModuleLinkMap;
 }) {
   const Icon = MODULE_EYEBROW_ICON[sectionId];
+  const link = moduleKey && linkMap ? linkMap[moduleKey] : null;
   return (
     <div className="mb-8 text-center scroll-reveal md:mb-12">
       <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1.5 text-xs font-medium uppercase tracking-wider md:mb-4">
         <Icon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
         {eyebrow}
       </div>
-      <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">{title}</h2>
+      {link ? (
+        <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+          <Link
+            href={link.url}
+            className="transition-colors hover:text-[hsl(var(--nav-theme-light))]"
+          >
+            {title}
+          </Link>
+        </h2>
+      ) : (
+        <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">{title}</h2>
+      )}
       <p className="mx-auto max-w-3xl text-base text-muted-foreground md:text-lg">
         {intro}
       </p>
@@ -172,6 +191,7 @@ function CodeCard({ item }: { item: any }) {
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -417,6 +437,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflCodesAndRewards.eyebrow}
             title={t.modules.nflCodesAndRewards.title}
             intro={t.modules.nflCodesAndRewards.intro}
+            moduleKey="nflCodesAndRewards"
+            linkMap={moduleLinkMap}
           />
           <div className="grid grid-cols-1 gap-4 scroll-reveal md:grid-cols-2 lg:grid-cols-3">
             {t.modules.nflCodesAndRewards.items.map((item: any, i: number) => (
@@ -449,6 +471,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflBeginnerGuide.eyebrow}
             title={t.modules.nflBeginnerGuide.title}
             intro={t.modules.nflBeginnerGuide.intro}
+            moduleKey="nflBeginnerGuide"
+            linkMap={moduleLinkMap}
           />
           <div className="space-y-3 scroll-reveal md:space-y-4">
             {t.modules.nflBeginnerGuide.steps.map((step: any, index: number) => (
@@ -493,6 +517,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflControlsAndGameplay.eyebrow}
             title={t.modules.nflControlsAndGameplay.title}
             intro={t.modules.nflControlsAndGameplay.intro}
+            moduleKey="nflControlsAndGameplay"
+            linkMap={moduleLinkMap}
           />
           <div className="space-y-8 scroll-reveal">
             {Object.entries(
@@ -570,6 +596,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflBestPositions.eyebrow}
             title={t.modules.nflBestPositions.title}
             intro={t.modules.nflBestPositions.intro}
+            moduleKey="nflBestPositions"
+            linkMap={moduleLinkMap}
           />
           <div className="space-y-6 scroll-reveal">
             {positionTiers.map((group: any) => (
@@ -638,6 +666,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflTeamsUniformsAndStadiums.eyebrow}
             title={t.modules.nflTeamsUniformsAndStadiums.title}
             intro={t.modules.nflTeamsUniformsAndStadiums.intro}
+            moduleKey="nflTeamsUniformsAndStadiums"
+            linkMap={moduleLinkMap}
           />
           <div className="space-y-6 scroll-reveal">
             {/* All 32 NFL Teams wide card */}
@@ -728,6 +758,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflRankedParkAndMatchmaking.eyebrow}
             title={t.modules.nflRankedParkAndMatchmaking.title}
             intro={t.modules.nflRankedParkAndMatchmaking.intro}
+            moduleKey="nflRankedParkAndMatchmaking"
+            linkMap={moduleLinkMap}
           />
           <div className="grid grid-cols-1 gap-4 scroll-reveal md:grid-cols-2">
             {t.modules.nflRankedParkAndMatchmaking.strategies.map(
@@ -784,6 +816,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflCoinsOvrAndProgression.eyebrow}
             title={t.modules.nflCoinsOvrAndProgression.title}
             intro={t.modules.nflCoinsOvrAndProgression.intro}
+            moduleKey="nflCoinsOvrAndProgression"
+            linkMap={moduleLinkMap}
           />
           <div className="grid grid-cols-1 gap-4 scroll-reveal md:grid-cols-2 lg:grid-cols-3">
             {t.modules.nflCoinsOvrAndProgression.progression.map(
@@ -821,6 +855,8 @@ export default function HomePageClient({
             eyebrow={t.modules.nflUpdatesAndEventsTracker.eyebrow}
             title={t.modules.nflUpdatesAndEventsTracker.title}
             intro={t.modules.nflUpdatesAndEventsTracker.intro}
+            moduleKey="nflUpdatesAndEventsTracker"
+            linkMap={moduleLinkMap}
           />
           <div className="relative space-y-4 scroll-reveal before:absolute before:content-[''] before:left-[19px] before:top-2 before:bottom-2 before:w-px before:bg-border md:before:left-[23px]">
             {t.modules.nflUpdatesAndEventsTracker.timeline.map(
