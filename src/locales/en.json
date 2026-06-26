@@ -10,14 +10,7 @@
       "twitterDescription": "NFL Universe Football Wiki covers Roblox codes, controls, teams, stadiums, builds, and updates for the official NFL experience."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

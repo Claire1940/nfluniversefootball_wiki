@@ -1,4 +1,3 @@
-import { BookOpen, Sparkles, Package, Eye, Home, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -8,14 +7,8 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = [
-	{ key: 'guides', path: '/guides', icon: BookOpen, isContentType: true },
-	{ key: 'crafting', path: '/crafting', icon: Sparkles, isContentType: true },
-	{ key: 'items', path: '/items', icon: Package, isContentType: true },
-	{ key: 'biomes', path: '/biomes', icon: Eye, isContentType: true },
-	{ key: 'building', path: '/building', icon: Home, isContentType: true },
-	{ key: 'support', path: '/support', icon: MessageCircle, isContentType: true },
-]
+// 导航配置将在后续内容阶段填充；当前为空（已清空模板残留）
+export const NAVIGATION_CONFIG: NavigationItem[] = []
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
