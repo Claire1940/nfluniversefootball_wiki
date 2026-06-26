@@ -52,696 +52,358 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "NFL Universe Football Gameplay",
+    "description": "Play all 32 NFL teams across 6v6 matches, practice mode, park play, and ranked matchups with OVR progression, official uniforms, stadiums, and NFL-themed rewards."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "NFL Universe Football",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Codes, beginner guide, controls, and the best positions tier list for NFL Universe Football on Roblox.",
     "cards": [
+      {
+        "icon": "Gift",
+        "title": "Codes and Rewards",
+        "description": "Active and expired NFL Universe Football codes with rewards"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First match, roles, OVR, and coins for new players"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Keyboard",
+        "title": "Controls and Gameplay",
+        "description": "PC and mobile inputs for passing, catching, and defense"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Trophy",
+        "title": "Best Positions Tier List",
+        "description": "QB, WR, DB, RB, Kicker, and blocker ranked for beginners"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "nflCodesAndRewards": {
+      "eyebrow": "Codes",
+      "title": "NFL Universe Football Codes and Rewards",
+      "intro": "NFL Universe Football codes are redeemed in-game for rewards such as Pro Packs, coins, free reward bundles, and limited event items. The safest code sources are the official Roblox game page, the official Discord server, and the official NFL Universe Football social channels.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "code": "UNIFORMS26",
+          "status": "Active",
+          "reward": "Free rewards",
+          "rewardType": "Update reward",
+          "source": "Official update cycle",
+          "redeemNote": "Open NFL Universe Football on Roblox, enter the code in the in-game code menu, and claim the reward before the update rotation changes."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "code": "MIXTAPE",
+          "status": "Active",
+          "reward": "1 Pro Pack",
+          "rewardType": "Pack reward",
+          "source": "Official update cycle",
+          "redeemNote": "Use this code from the in-game code menu to claim a pack reward for your account."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "code": "STADIUMS",
+          "status": "Active",
+          "reward": "Free rewards",
+          "rewardType": "Stadium update reward",
+          "source": "Official update cycle",
+          "redeemNote": "Redeem after joining the Roblox experience and checking the current code menu."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "code": "SZN6",
+          "status": "Active",
+          "reward": "1 Pro Pack",
+          "rewardType": "Season reward",
+          "source": "Official NFL Universe Football social channel",
+          "redeemNote": "Season codes are tied to the active season window, so redeem this before the next season rollover."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "code": "HEATINGUP",
+          "status": "Active",
+          "reward": "Free rewards",
+          "rewardType": "Event reward",
+          "source": "Official update cycle",
+          "redeemNote": "Enter the code exactly as written, with no spaces before or after the text."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "code": "BRAINROT",
+          "status": "Active",
+          "reward": "Pro Pack reward",
+          "rewardType": "Limited event reward",
+          "source": "Official NFL Universe Football social channel",
+          "redeemNote": "Use this code during the limited event period to claim the event-linked reward."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "code": "HBCU",
+          "status": "Active",
+          "reward": "10,000 Coins",
+          "rewardType": "Coin reward",
+          "source": "Official NFL Universe Football social channel",
+          "redeemNote": "Coin codes add currency to your account for in-game progression and cosmetics."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "code": "CHRISTMAS2025",
+          "status": "Expired",
+          "reward": "Limited cosmetic item",
+          "rewardType": "Holiday cosmetic",
+          "source": "Official event rotation",
+          "redeemNote": "Holiday codes are event-limited and should be kept in the expired list for searchers checking old rewards."
+        },
+        {
+          "code": "HAPPYTHANKSGIVING25",
+          "status": "Expired",
+          "reward": "Free reward",
+          "rewardType": "Holiday event reward",
+          "source": "Official NFL Universe Football social channel",
+          "redeemNote": "This code belonged to the Thanksgiving event window and is useful as an expired-code reference."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "nflBeginnerGuide": {
+      "eyebrow": "Beginner Guide",
+      "title": "NFL Universe Football Beginner Guide",
+      "intro": "NFL Universe Football is the Roblox football experience by Voldex, formerly known as Ultimate Football. The game includes all 32 NFL teams, NFL uniforms, NFL stadiums, 6v6 matches, practice mode, park match types, a trade hub, OVR progression, and exclusive NFL-themed items earned through challenges, events, and milestones.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Join the official Roblox experience",
+          "goal": "Start from the official NFL Universe Football Roblox page.",
+          "details": "Launch the game from the official Roblox listing by NFL Universe Football by Voldex. The page identifies the game as the top football experience on Roblox and notes that it was formerly known as Ultimate Football.",
+          "beginnerTip": "Follow the Roblox experience page so update alerts, season changes, and event rotations are easier to find."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Pick an NFL team",
+          "goal": "Choose a familiar team and focus on learning the match flow.",
+          "details": "NFL Universe Football lets players play for any of the 32 NFL teams, with official NFL uniforms and stadiums included in the experience.",
+          "beginnerTip": "Your first team choice is less important than learning where to stand, when to run, and when to pass."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Use practice mode first",
+          "goal": "Learn passing, catching, kicking, and movement before jumping into serious matches.",
+          "details": "The official NFL and Voldex announcement lists practice mode as one of the game's core activities, alongside 6v6 matches, park mode, and the trade hub.",
+          "beginnerTip": "Spend a few minutes practicing timing before playing quarterback. Throwing randomly is not strategy, despite what public lobbies bravely demonstrate."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Start with simple roles",
+          "goal": "Learn receiver, defender, and runner basics before taking over quarterback decisions.",
+          "details": "The game centers on touchdown passes, field goals, running plays, defense, and team-based football matches. Beginners should understand route timing and defensive spacing before trying to control every offensive play.",
+          "beginnerTip": "Receiver and defender roles teach timing faster than quarterback because you can focus on one job at a time."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Play 6v6 matches",
+          "goal": "Learn full-team football flow in the main match format.",
+          "details": "NFL Universe Football supports action-packed 6v6 matches where players work together to score, defend, and win possessions.",
+          "beginnerTip": "Watch the ball, but do not chase it blindly. Your position matters more than sprinting in decorative panic."
+        },
+        {
+          "step": 6,
+          "title": "Try park match types",
+          "goal": "Use park games to practice smaller matchups and faster decision-making.",
+          "details": "Park mode includes multiple match types and now features ranked play and skill-based matchmaking in park updates.",
+          "beginnerTip": "Park games are useful for learning one-on-one coverage, catching windows, and quick offensive reads."
+        },
+        {
+          "step": 7,
+          "title": "Build your OVR",
+          "goal": "Improve your account progression through real match performance.",
+          "details": "The Roblox game page highlights OVR progression as a way to show off your skills. Recent updates also emphasize XP progression and skill-based play.",
+          "beginnerTip": "Focus on clean catches, smart tackles, and completed plays. OVR climbs better when you stop treating every possession like a coin-flip experiment."
+        },
+        {
+          "step": 8,
+          "title": "Claim bonus rewards",
+          "goal": "Use official reward boosts and event systems to collect more items.",
+          "details": "Roblox Premium players receive 25% more coins, and players who join the official Roblox community group also receive 25% more coins. NFL-themed gear can also be earned through challenges, special events, and milestones.",
+          "beginnerTip": "Join the official community routes before grinding so coin bonuses and event notices are not missed."
+        }
+      ]
+    },
+    "nflControlsAndGameplay": {
+      "eyebrow": "Controls",
+      "title": "NFL Universe Football Controls and Gameplay Guide",
+      "intro": "NFL Universe Football gameplay is built around Roblox football actions: passing for touchdowns, catching routes, rushing with the ball, tackling on defense, kicking field goals, and using teamwork in 6v6 or park matches. Controls can vary slightly by device and in-game prompt, but these are the main player actions beginners should learn first.",
+      "controls": [
+        {
+          "category": "Movement",
+          "action": "Move",
+          "pcInput": "WASD",
+          "mobileInput": "Left virtual joystick",
+          "useCase": "Position yourself before and during every play.",
+          "beginnerTip": "Move into open space on offense and hold your zone on defense instead of chasing every player."
+        },
+        {
+          "category": "Movement",
+          "action": "Sprint",
+          "pcInput": "Shift",
+          "mobileInput": "Sprint button or extended joystick movement",
+          "useCase": "Create separation, close gaps, chase ball carriers, and reach open field.",
+          "beginnerTip": "Sprint after the play develops; constant sprinting makes routes sloppy and tackles easier to miss."
+        },
+        {
+          "category": "Movement",
+          "action": "Jump",
+          "pcInput": "Spacebar",
+          "mobileInput": "Jump button",
+          "useCase": "Contest catches, reach passes, and adjust during close ball fights.",
+          "beginnerTip": "Jump only when the ball is arriving. Early jumps turn easy catches into public comedy."
+        },
+        {
+          "category": "Offense",
+          "action": "Throw Pass",
+          "pcInput": "Hold and release Left Click",
+          "mobileInput": "Tap and hold the throw button, then release",
+          "useCase": "Quarterback passing to receivers during offensive plays.",
+          "beginnerTip": "Hold longer for more power and release toward the receiver's route, not where they were two seconds ago."
+        },
+        {
+          "category": "Offense",
+          "action": "Catch",
+          "pcInput": "Left Click when prompted or when the ball arrives",
+          "mobileInput": "Tap the catch button when the ball is near",
+          "useCase": "Receiver catches, defensive interceptions, and contested plays.",
+          "beginnerTip": "Face the ball and time the input. Good positioning matters more than frantic clicking."
+        },
+        {
+          "category": "Offense",
+          "action": "Run With Ball",
+          "pcInput": "WASD plus Sprint",
+          "mobileInput": "Joystick plus sprint control",
+          "useCase": "Rush plays, yards after catch, and open-field scoring attempts.",
+          "beginnerTip": "Use angles instead of running straight into defenders like a heroic traffic cone."
+        },
+        {
+          "category": "Offense",
+          "action": "Block or Handoff",
+          "pcInput": "X when the situation allows",
+          "mobileInput": "On-screen block or handoff prompt",
+          "useCase": "Support a ball carrier or hand the ball to a teammate during designed plays.",
+          "beginnerTip": "Blocking is useful when you are not the target. Football remains a team game, annoyingly enough."
+        },
+        {
+          "category": "Defense",
+          "action": "Dive or Tackle",
+          "pcInput": "E",
+          "mobileInput": "Dive or tackle button",
+          "useCase": "Stop ball carriers, contest catches, and force defensive stops.",
+          "beginnerTip": "Do not dive too early. Wait until the runner commits to a lane."
+        },
+        {
+          "category": "Defense",
+          "action": "Cover Receiver",
+          "pcInput": "WASD, Sprint, Jump, and Catch timing",
+          "mobileInput": "Joystick, sprint, jump, and catch buttons",
+          "useCase": "Stay near receivers, break up passes, and go for interceptions.",
+          "beginnerTip": "Stay between the receiver and the end zone when defending deep routes."
+        },
+        {
+          "category": "Special Teams",
+          "action": "Kick or Field Goal",
+          "pcInput": "Use the on-screen kick meter prompts",
+          "mobileInput": "Use the on-screen kick meter prompts",
+          "useCase": "Field goals, extra-point situations, and kicking plays.",
+          "beginnerTip": "Watch the meter and timing prompts carefully. Kicking is about timing, not spiritual optimism."
+        },
+        {
+          "category": "Play Management",
+          "action": "Call Play or Select Option",
+          "pcInput": "Number keys 1-9 or on-screen play prompts",
+          "mobileInput": "Tap the play-call buttons",
+          "useCase": "Choose offensive or defensive play options when available.",
+          "beginnerTip": "Pick simple plays early. Complicated calls are useless when nobody knows where to stand."
+        },
+        {
+          "category": "Camera and Player Control",
+          "action": "Switch Player or Adjust View",
+          "pcInput": "Mouse scroll, number keys, or camera controls when available",
+          "mobileInput": "On-screen switch or camera controls",
+          "useCase": "Track the ball, line up routes, and react to live play changes.",
+          "beginnerTip": "Keep the camera on the ball and open space, not just your avatar's glorious confusion."
+        }
+      ]
+    },
+    "nflBestPositions": {
+      "eyebrow": "Tier List",
+      "title": "NFL Universe Football Best Positions Tier List",
+      "intro": "NFL Universe Football features team-based football play built around passing, catching, rushing, tackling, field goals, 6v6 matches, practice mode, park mode, and OVR progression. The best beginner path is to learn receiver and defender timing first, then move into quarterback once passing reads and route timing make sense.",
+      "positions": [
+        {
+          "tier": "S",
+          "position": "Quarterback",
+          "roleType": "Primary passer and play driver",
+          "beginnerDifficulty": "Hard",
+          "matchImpact": "Very High",
+          "scoringValue": "Very High",
+          "teamUsefulness": "Very High",
+          "whyItRanksHere": "Quarterback controls most passing plays, creates touchdown chances, and sets the pace of the offense. The role has the highest impact but also the highest pressure because bad reads turn into lost possessions fast.",
+          "bestFor": "Players who can read spacing, time throws, and stay calm under pressure.",
+          "starterTip": "Practice passing before taking QB in live matches."
+        },
+        {
+          "tier": "A",
+          "position": "Wide Receiver",
+          "roleType": "Route runner and catcher",
+          "beginnerDifficulty": "Medium",
+          "matchImpact": "High",
+          "scoringValue": "High",
+          "teamUsefulness": "High",
+          "whyItRanksHere": "Receivers turn passes into yards, touchdowns, and momentum. This role is easier to start than quarterback while still teaching spacing, timing, catching, and route movement.",
+          "bestFor": "Players learning offense, catching timing, and open-field movement.",
+          "starterTip": "Create separation before calling for the ball."
+        },
+        {
+          "tier": "A",
+          "position": "Defensive Back",
+          "roleType": "Coverage defender and interception threat",
+          "beginnerDifficulty": "Medium",
+          "matchImpact": "High",
+          "scoringValue": "Medium",
+          "teamUsefulness": "Very High",
+          "whyItRanksHere": "Defensive backs stop deep passes, contest catches, and can flip possession with interceptions. Strong coverage can shut down aggressive quarterbacks and protect the end zone.",
+          "bestFor": "Players with good reaction timing and patience.",
+          "starterTip": "Stay between the receiver and the end zone instead of chasing from behind."
+        },
+        {
+          "tier": "B",
+          "position": "Running Back or Ball Carrier",
+          "roleType": "Rusher and yards-after-catch runner",
+          "beginnerDifficulty": "Medium",
+          "matchImpact": "Medium",
+          "scoringValue": "Medium",
+          "teamUsefulness": "Medium",
+          "whyItRanksHere": "Running can create steady gains and punish open lanes, but the role depends heavily on timing, blocking, and defender angles. It is valuable when the defense overcommits to passing.",
+          "bestFor": "Players who like movement, jukes, and short-yardage gains.",
+          "starterTip": "Run toward space, not directly into the nearest defender with the confidence of a shopping cart."
+        },
+        {
+          "tier": "B",
+          "position": "Kicker",
+          "roleType": "Field goal and extra-point specialist",
+          "beginnerDifficulty": "Easy to Medium",
+          "matchImpact": "Medium",
+          "scoringValue": "Medium",
+          "teamUsefulness": "Medium",
+          "whyItRanksHere": "Kicking matters in close games and field-goal situations, but the role appears less often than quarterback, receiver, or defender. Good kick timing can still decide tight matches.",
+          "bestFor": "Players who prefer timing-based execution over constant route movement.",
+          "starterTip": "Use practice time to learn the kick meter before important attempts."
+        },
+        {
+          "tier": "C",
+          "position": "Pure Blocker",
+          "roleType": "Support player",
+          "beginnerDifficulty": "Easy",
+          "matchImpact": "Low to Medium",
+          "scoringValue": "Low",
+          "teamUsefulness": "Medium",
+          "whyItRanksHere": "Blocking helps runners and receivers, but it usually has lower direct scoring value than passing, catching, defending, or kicking. It is still useful when coordinated with teammates.",
+          "bestFor": "Players learning teamwork, spacing, and support timing.",
+          "starterTip": "Block only when it helps the ball carrier gain space."
         }
       ]
     }
@@ -749,31 +411,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about NFL Universe Football",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is NFL Universe Football?",
+        "answer": "NFL Universe Football is the official NFL Roblox football experience by Voldex, formerly known as Ultimate Football. NFL Universe Football includes all 32 NFL teams, official uniforms, NFL stadiums, 6v6 matches, practice mode, park play, ranked matchmaking, and OVR progression."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How many NFL teams are in NFL Universe Football?",
+        "answer": "NFL Universe Football lets you play for any of the 32 NFL teams, complete with official NFL uniforms and stadiums included in the experience."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does NFL Universe Football have ranked play?",
+        "answer": "Yes. NFL Universe Football features Ranked in Park with skill-based matchmaking, so players can compete in ranked park match types alongside standard 6v6 matches."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I redeem NFL Universe Football codes?",
+        "answer": "To redeem NFL Universe Football codes, open the game on Roblox, open the in-game code menu, enter the code exactly as written, and claim the reward before the code or season rotates."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is OVR in NFL Universe Football?",
+        "answer": "OVR is the overall progression rating in NFL Universe Football. It grows through clean catches, smart tackles, completed plays, XP progression, and skill-based performance across 6v6 and park matches."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is NFL Universe Football free to play on Roblox?",
+        "answer": "Yes. NFL Universe Football is free to play on Roblox. Roblox Premium members and official community group members also earn 25% more coins in NFL Universe Football."
       }
     ]
   },
@@ -801,125 +463,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "NFL Universe Football Codes",
+      "description": "Active and expired NFL Universe Football codes with rewards, redeem steps, and official source notes.",
+      "metaTitle": "NFL Universe Football Codes - Active & Expired Codes",
+      "metaDescription": "All current NFL Universe Football codes with Pro Packs, coins, and event rewards, plus redeem steps and official sources.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "NFL Universe Football codes are redeemed in-game for Pro Packs, coins, free reward bundles, and limited event items from official update cycles and social channels.",
+      "why": "Why check codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim Free Rewards",
+        "step1Description": "Redeem active codes for Pro Packs, coins, and event items",
+        "step2Title": "Track Expiration",
+        "step2Description": "Keep expired codes as a reference for old event rewards",
+        "step3Title": "Verify Sources",
+        "step3Description": "Confirm codes against official Roblox, Discord, and social channels"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Articles"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "beginner": {
+      "title": "NFL Universe Football Beginner Guide",
+      "description": "First match, role basics, OVR, coins, practice mode, and park play for new NFL Universe Football players.",
+      "metaTitle": "NFL Universe Football Beginner Guide - How to Play",
+      "metaDescription": "Start NFL Universe Football with team selection, practice mode, 6v6 matches, park play, OVR progression, and coin bonuses.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "What is the Beginner Guide?",
+      "whatIsDescription": "NFL Universe Football beginner guides cover your first match, simple roles, 6v6 flow, park match types, and OVR progression for new Roblox football players.",
+      "why": "Why read the beginner guide?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Learn the Match Flow",
+        "step1Description": "Understand where to stand, when to run, and when to pass",
+        "step2Title": "Build OVR",
+        "step2Description": "Grow your overall rating through clean catches and smart tackles",
+        "step3Title": "Earn Coins",
+        "step3Description": "Stack Roblox Premium and community group coin bonuses"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Articles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "controls": {
+      "title": "NFL Universe Football Controls",
+      "description": "PC and mobile controls for passing, catching, running, blocking, tackling, kicking, and play calling.",
+      "metaTitle": "NFL Universe Football Controls - PC & Mobile Guide",
+      "metaDescription": "Master NFL Universe Football controls on keyboard and mobile, covering passing, catching, diving, tackling, kicking, and camera.",
+      "categoryLabel": "CONTROLS",
+      "whatIs": "What are Controls?",
+      "whatIsDescription": "NFL Universe Football controls cover movement, offense, defense, special teams, play management, and camera actions for PC and mobile players.",
+      "why": "Why learn controls?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Pass and Catch",
+        "step1Description": "Time throws, catches, and contested plays on every device",
+        "step2Title": "Defend and Tackle",
+        "step2Description": "Dive, cover receivers, and force defensive stops",
+        "step3Title": "Kick and Call Plays",
+        "step3Description": "Use the kick meter and pick simple plays early"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "positions": {
+      "title": "NFL Universe Football Positions",
+      "description": "Role guides for quarterback, wide receiver, defensive back, running back, kicker, and blocker.",
+      "metaTitle": "NFL Universe Football Positions - QB, WR, DB & More",
+      "metaDescription": "Learn every NFL Universe Football position with role duties, beginner difficulty, match impact, and starter tips.",
+      "categoryLabel": "POSITIONS",
+      "whatIs": "What are Positions?",
+      "whatIsDescription": "NFL Universe Football positions explain quarterback reads, receiver routes, defensive coverage, rushing, kicking, and blocking roles.",
+      "why": "Why study positions?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick the Right Role",
+        "step1Description": "Match your playstyle to the best beginner position",
+        "step2Title": "Learn Timing",
+        "step2Description": "Start with receiver and defender before quarterback",
+        "step3Title": "Raise Match Impact",
+        "step3Description": "Understand scoring value and team usefulness per role"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "builds": {
+      "title": "NFL Universe Football Builds",
+      "description": "OVR progression, size tradeoffs, attributes, settings, and best build ideas for each role.",
+      "metaTitle": "NFL Universe Football Builds - Best Build & OVR Guide",
+      "metaDescription": "Optimize your NFL Universe Football build with OVR progression, size, attributes, settings, and role-specific build suggestions.",
+      "categoryLabel": "BUILDS & OVR",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "NFL Universe Football builds cover OVR progression, height and size tradeoffs, attribute focus, settings, and the best build direction for each role.",
+      "why": "Why plan a build?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Grow OVR",
+        "step1Description": "Turn clean plays and XP into a higher overall rating",
+        "step2Title": "Choose Size",
+        "step2Description": "Balance height and size for your position",
+        "step3Title": "Tune Settings",
+        "step3Description": "Match controls and display settings to your playstyle"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Articles"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "teams": {
+      "title": "NFL Universe Football Teams",
+      "description": "All 32 NFL teams, official uniforms, team merch, and how to pick your favorite team.",
+      "metaTitle": "NFL Universe Football Teams - All 32 NFL Teams & Uniforms",
+      "metaDescription": "Browse all 32 NFL teams in NFL Universe Football with official uniforms, team merch, and favorite team selection.",
+      "categoryLabel": "TEAMS & UNIFORMS",
+      "whatIs": "What are Teams?",
+      "whatIsDescription": "NFL Universe Football teams cover all 32 NFL franchises with official uniforms, stadiums, and team selection for matches.",
+      "why": "Why pick a team?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Play Any Team",
+        "step1Description": "Choose from all 32 NFL teams in every match",
+        "step2Title": "Wear Uniforms",
+        "step2Description": "Show official NFL uniforms and colors",
+        "step3Title": "Find Merch",
+        "step3Description": "Collect team-themed items and gear"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Articles"
+    },
+    "maps": {
+      "title": "NFL Universe Football Maps",
+      "description": "All 32 NFL stadiums, park layout, practice mode, and the trade hub locations.",
+      "metaTitle": "NFL Universe Football Maps - Stadiums, Park & Practice",
+      "metaDescription": "Explore NFL Universe Football maps including all 32 NFL stadiums, park, practice mode, and the trade hub.",
+      "categoryLabel": "MAPS & STADIUMS",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "NFL Universe Football maps cover all 32 NFL stadiums, park match types, practice mode, and the trade hub where features are found.",
+      "why": "Why explore maps?",
+      "whySteps": {
+        "step1Title": "Know the Stadiums",
+        "step1Description": "Learn all 32 NFL stadium layouts",
+        "step2Title": "Use Park",
+        "step2Description": "Practice smaller matchups and ranked play",
+        "step3Title": "Find the Trade Hub",
+        "step3Description": "Locate practice mode and trade features"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Articles"
+    },
+    "updates": {
+      "title": "NFL Universe Football Updates",
+      "description": "Season changes, ranked park updates, patch notes, events, and limited content.",
+      "metaTitle": "NFL Universe Football Updates - Season, Ranked & Patch Notes",
+      "metaDescription": "Track NFL Universe Football updates including Season changes, Ranked in Park, patch notes, first down animations, and limited events.",
+      "categoryLabel": "UPDATES & SEASONS",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "NFL Universe Football updates cover seasons like Season 6, Ranked in Park, patch notes, first down animations, and limited events.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Track Seasons",
+        "step1Description": "Stay current with season changes and rewards",
+        "step2Title": "Play Ranked",
+        "step2Description": "Jump into Ranked in Park matchmaking",
+        "step3Title": "Catch Events",
+        "step3Description": "Claim limited event content and cosmetics"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Articles"
     }
   }
 }
