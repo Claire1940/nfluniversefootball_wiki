@@ -58,7 +58,7 @@
   "tools": {
     "title": "NFL Universe Football",
     "titleHighlight": "Resources",
-    "subtitle": "Codes, beginner guide, controls, and the best positions tier list for NFL Universe Football on Roblox.",
+    "subtitle": "Codes, beginner guide, controls, positions, teams, ranked park, progression, and updates for NFL Universe Football on Roblox.",
     "cards": [
       {
         "icon": "Gift",
@@ -79,6 +79,26 @@
         "icon": "Trophy",
         "title": "Best Positions Tier List",
         "description": "QB, WR, DB, RB, Kicker, and blocker ranked for beginners"
+      },
+      {
+        "icon": "Football",
+        "title": "Teams, Uniforms & Stadiums",
+        "description": "All 32 NFL teams, uniforms, stadiums, and team merch"
+      },
+      {
+        "icon": "Target",
+        "title": "Ranked Park & Matchmaking",
+        "description": "Ranked in Park, skill-based matchmaking, and serious matches"
+      },
+      {
+        "icon": "Coins",
+        "title": "Coins, OVR & Progression",
+        "description": "Coin bonuses, OVR growth, milestones, and NFL rewards"
+      },
+      {
+        "icon": "CalendarClock",
+        "title": "Updates & Events Tracker",
+        "description": "Seasons, patches, events, and limited content in one place"
       }
     ]
   },
@@ -404,6 +424,282 @@
           "whyItRanksHere": "Blocking helps runners and receivers, but it usually has lower direct scoring value than passing, catching, defending, or kicking. It is still useful when coordinated with teammates.",
           "bestFor": "Players learning teamwork, spacing, and support timing.",
           "starterTip": "Block only when it helps the ball carrier gain space."
+        }
+      ]
+    },
+    "nflTeamsUniformsAndStadiums": {
+      "eyebrow": "NFL Branding",
+      "title": "NFL Universe Football Teams, Uniforms, Stadiums, and Merch",
+      "intro": "NFL Universe Football is the NFL-branded evolution of Ultimate Football on Roblox. The experience highlights all 32 NFL teams, updated uniforms, all 32 NFL stadiums, new NFL Team Merch, exclusive NFL items, and team-pride cosmetics for players who want their favorite club represented in-game.",
+      "teamsCard": {
+        "title": "All 32 NFL Teams",
+        "description": "Every current NFL club is represented for team-based play and fan identity.",
+        "afcLabel": "AFC",
+        "nfcLabel": "NFC",
+        "afc": [
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Cincinnati Bengals",
+          "Cleveland Browns",
+          "Denver Broncos",
+          "Houston Texans",
+          "Indianapolis Colts",
+          "Jacksonville Jaguars",
+          "Kansas City Chiefs",
+          "Las Vegas Raiders",
+          "Los Angeles Chargers",
+          "Miami Dolphins",
+          "New England Patriots",
+          "New York Jets",
+          "Pittsburgh Steelers",
+          "Tennessee Titans"
+        ],
+        "nfc": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Dallas Cowboys",
+          "Detroit Lions",
+          "Green Bay Packers",
+          "Los Angeles Rams",
+          "Minnesota Vikings",
+          "New Orleans Saints",
+          "New York Giants",
+          "Philadelphia Eagles",
+          "San Francisco 49ers",
+          "Seattle Seahawks",
+          "Tampa Bay Buccaneers",
+          "Washington Commanders"
+        ]
+      },
+      "features": [
+        {
+          "title": "Official NFL Uniforms",
+          "description": "Updated NFL uniforms are part of the current Roblox listing, and the NFL and Voldex announcement describes iconic uniforms as a key part of the rebrand.",
+          "playerValue": "Use team identity and official-style uniform visuals during matches."
+        },
+        {
+          "title": "All 32 NFL Stadiums",
+          "description": "The current Roblox listing calls out all 32 NFL stadiums as part of the latest NFL Universe Football content.",
+          "playerValue": "A direct match for players searching whether their favorite team's stadium is represented."
+        },
+        {
+          "title": "NFL Team Merch",
+          "description": "New NFL Team Merch is listed in the latest update, and NFL-branded gear and merchandise are tied to challenges, events, and milestones.",
+          "playerValue": "Best for players who want team-pride items, themed gear, and visual customization."
+        },
+        {
+          "title": "Exclusive NFL Items",
+          "description": "NFL Universe Football highlights exclusive NFL items that can be unlocked and earned through in-game activity, challenges, and events.",
+          "playerValue": "The main collection bucket for NFL-branded cosmetics and rewards."
+        },
+        {
+          "title": "From Ultimate Football to NFL Universe Football",
+          "description": "NFL Universe Football is the rebranded version of Voldex's Ultimate Football, updated with NFL intellectual property and official team content.",
+          "playerValue": "Helps returning players understand why the name, branding, uniforms, and team content changed."
+        }
+      ]
+    },
+    "nflRankedParkAndMatchmaking": {
+      "eyebrow": "Competitive Play",
+      "title": "NFL Universe Football Ranked Park and Matchmaking",
+      "intro": "NFL Universe Football supports casual football with friends, six-vs-six matches, practice mode, trade hub activity, and Park match types. Competitive players should treat Park as the main serious-play destination, use casual games to warm up, and move into Ranked Park once passing, catching, tackling, and kicking timing is steady.",
+      "strategies": [
+        {
+          "title": "Ranked in Park",
+          "priority": "Core ranked route",
+          "whatItMeans": "Season 6 added Ranked in Park, moving competitive matchmaking into the Park experience.",
+          "bestUse": "Queue here when you want serious matches instead of casual warm-up play."
+        },
+        {
+          "title": "Three Casual Matches First",
+          "priority": "Entry requirement",
+          "whatItMeans": "Official social updates describe Ranked matchmaking as available after completing three casual matches.",
+          "bestUse": "Use the required casual games to test timing, movement, and role comfort before entering ranked."
+        },
+        {
+          "title": "Skill-Based Matchmaking in Park",
+          "priority": "Match quality",
+          "whatItMeans": "The current Roblox listing names Skill Based Matchmaking as a Park feature.",
+          "bestUse": "Expect Park matches to be better suited for competitive improvement than random unstructured play."
+        },
+        {
+          "title": "Park Improvements",
+          "priority": "Mode update",
+          "whatItMeans": "The latest game description lists Park improvements alongside updated NFL uniforms.",
+          "bestUse": "Check Park first when returning after an update, because the mode is tied to both matchmaking and ranked changes."
+        },
+        {
+          "title": "Six-vs-Six Matches",
+          "priority": "Main football format",
+          "whatItMeans": "The NFL and Voldex announcement describes action-packed six-vs-six matches as part of the experience.",
+          "bestUse": "Coordinate roles clearly, because smaller teams make every quarterback, receiver, defender, and kicker mistake more visible."
+        },
+        {
+          "title": "Practice Before Ranked",
+          "priority": "Skill prep",
+          "whatItMeans": "Practice mode exists for sharpening mechanics before stepping into match pressure.",
+          "bestUse": "Warm up throws, catches, cuts, tackles, and field goals before risking ranked results."
+        },
+        {
+          "title": "Play With Friends",
+          "priority": "Team coordination",
+          "whatItMeans": "The game description highlights competing in football games with friends.",
+          "bestUse": "Queue with players who understand roles and spacing when you want cleaner drives and fewer broken plays."
+        }
+      ]
+    },
+    "nflCoinsOvrAndProgression": {
+      "eyebrow": "Progression",
+      "title": "NFL Universe Football Coins, OVR, and Progression",
+      "intro": "NFL Universe Football gives players several progression signals: OVR for skill growth, coins for earning power, Premium and group coin bonuses for faster grinding, and NFL-branded gear from challenges, events, and milestones. The clean early path is simple: join the official Roblox group for the coin bonus, practice core mechanics, play matches consistently, and use rewards for long-term customization.",
+      "progression": [
+        {
+          "title": "OVR Progress",
+          "mechanic": "Overall rating",
+          "playerAction": "Improve match performance and keep playing core football roles.",
+          "rewardImpact": "OVR is the main visible skill-growth signal in NFL Universe Football."
+        },
+        {
+          "title": "Roblox Premium Coin Bonus",
+          "mechanic": "25% more coins",
+          "playerAction": "Play while using a Roblox Premium account.",
+          "rewardImpact": "Useful for players who plan to grind matches and cosmetics over time."
+        },
+        {
+          "title": "Official Group Coin Bonus",
+          "mechanic": "25% more coins",
+          "playerAction": "Join the official NFL Universe Football by Voldex Roblox community before grinding.",
+          "rewardImpact": "A simple early setup step for more coin income from regular play."
+        },
+        {
+          "title": "Milestone Rewards",
+          "mechanic": "Milestones",
+          "playerAction": "Complete in-game milestones while playing matches and events.",
+          "rewardImpact": "Milestones are tied to earning NFL-themed gear and merchandise."
+        },
+        {
+          "title": "Challenges and Events",
+          "mechanic": "Active content rewards",
+          "playerAction": "Take part in special events and in-game challenges when they are available.",
+          "rewardImpact": "Events and challenges are the main route for limited or themed NFL-branded items."
+        },
+        {
+          "title": "Exclusive NFL Items",
+          "mechanic": "Cosmetic collection",
+          "playerAction": "Use earned rewards to build team-themed and NFL-themed identity.",
+          "rewardImpact": "Best for long-term customization rather than raw match skill."
+        },
+        {
+          "title": "Practice Mode Routine",
+          "mechanic": "Skill training",
+          "playerAction": "Use practice mode before serious Park or ranked sessions.",
+          "rewardImpact": "Better timing supports OVR growth and more consistent match results."
+        },
+        {
+          "title": "Trade Hub Gear Loop",
+          "mechanic": "Gear trading",
+          "playerAction": "Use the trade hub after collecting gear and cosmetics.",
+          "rewardImpact": "Helps collection-focused players manage gear beyond normal match rewards."
+        }
+      ]
+    },
+    "nflUpdatesAndEventsTracker": {
+      "eyebrow": "Updates",
+      "title": "NFL Universe Football Updates and Events Tracker",
+      "intro": "NFL Universe Football updates are spread across the Roblox listing, official social posts, Discord, and the NFL and Voldex announcement trail. This tracker keeps the important player-facing changes in one place: what changed, what mode it affects, and why returning players should care.",
+      "timeline": [
+        {
+          "date": "2024-09-12",
+          "title": "NFL and Voldex Announce NFL Universe Football",
+          "summary": "The NFL and Voldex announced the Roblox collaboration that brought NFL intellectual property into the former Ultimate Football experience.",
+          "highlights": [
+            "All 32 NFL teams",
+            "Iconic NFL uniforms",
+            "NFL-branded items",
+            "Challenges, events, and milestones"
+          ]
+        },
+        {
+          "date": "2024-09-13",
+          "title": "Rebranded Experience Becomes Available",
+          "summary": "The NFL-branded version of the experience became available as NFL Universe Football.",
+          "highlights": [
+            "Ultimate Football rebrand",
+            "Official team identity",
+            "Regular updates and special events"
+          ]
+        },
+        {
+          "date": "Latest Update",
+          "title": "Updated NFL Uniforms and Park Improvements",
+          "summary": "The current Roblox listing highlights updated NFL uniforms and Park improvements as headline changes.",
+          "highlights": [
+            "Updated NFL uniforms",
+            "Park improvements",
+            "Returning-player visual refresh"
+          ]
+        },
+        {
+          "date": "Season 6",
+          "title": "Season 6 and Ranked in Park",
+          "summary": "Season 6 adds Ranked in Park and makes Park the key destination for competitive matchmaking.",
+          "highlights": [
+            "Season 6",
+            "Ranked in Park",
+            "Park-focused competitive play"
+          ]
+        },
+        {
+          "date": "Season 6",
+          "title": "Ranked Matchmaking Moves Into Park",
+          "summary": "Official social updates direct players to Park for ranked matchmaking after completing three casual matches.",
+          "highlights": [
+            "Ranked matchmaking",
+            "3 casual matches first",
+            "Park-based competitive queue"
+          ]
+        },
+        {
+          "date": "Latest Update",
+          "title": "First Down Animations",
+          "summary": "First Down Animations are listed as part of the current update, adding more presentation to successful drives.",
+          "highlights": [
+            "New animation feature",
+            "Drive celebration flavor",
+            "Football presentation upgrade"
+          ]
+        },
+        {
+          "date": "Latest Update",
+          "title": "Skill-Based Matchmaking for Park",
+          "summary": "The current listing identifies Skill Based Matchmaking as a Park feature.",
+          "highlights": [
+            "Park matchmaking",
+            "Competitive match quality",
+            "Better serious-play routing"
+          ]
+        },
+        {
+          "date": "Latest Update",
+          "title": "New NFL Team Merch and Stadium Content",
+          "summary": "The latest listing calls out new NFL Team Merch, all 32 NFL teams, and all 32 NFL stadiums.",
+          "highlights": [
+            "New NFL Team Merch",
+            "All 32 NFL teams",
+            "All 32 NFL stadiums"
+          ]
+        },
+        {
+          "date": "Event Mode",
+          "title": "NFL FLAG Gameplay",
+          "summary": "Official posts describe NFL FLAG as live with pull flags, new game rules, rewards, and 2v2 and 3v3 play.",
+          "highlights": [
+            "NFL FLAG",
+            "2v2 and 3v3",
+            "New rules and rewards"
+          ]
         }
       ]
     }

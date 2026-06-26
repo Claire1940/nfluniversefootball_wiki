@@ -29,6 +29,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   TrendingUp: LucideIcons.TrendingUp,
   Gift: LucideIcons.Gift,
   Trophy: LucideIcons.Trophy,
+  Football: LucideIcons.Football,
+  Target: LucideIcons.Target,
+  Coins: LucideIcons.Coins,
+  CalendarClock: LucideIcons.CalendarClock,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

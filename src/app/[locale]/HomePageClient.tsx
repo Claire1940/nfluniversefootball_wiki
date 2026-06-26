@@ -4,11 +4,15 @@ import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
   BookOpen,
+  CalendarClock,
   Check,
+  Coins,
   Copy,
+  Football,
   Gift,
   Keyboard,
   Sparkles,
+  Target,
   Trophy,
 } from "lucide-react";
 import Link from "next/link";
@@ -38,12 +42,16 @@ interface HomePageClientProps {
   locale: string;
 }
 
-// Tools Grid 卡片锚点 ↔ 模块 section id（4 张卡 ↔ 4 个模块）
+// Tools Grid 卡片锚点 ↔ 模块 section id（8 张卡 ↔ 8 个模块）
 const TOOL_SECTION_IDS = [
   "codes-and-rewards",
   "beginner-guide",
   "controls-and-gameplay-guide",
   "best-positions-tier-list",
+  "teams-uniforms-and-stadiums",
+  "ranked-park-and-matchmaking",
+  "coins-ovr-and-progression",
+  "updates-and-events-tracker",
 ];
 
 // 模块标题装饰图标
@@ -52,6 +60,10 @@ const MODULE_EYEBROW_ICON = {
   "beginner-guide": BookOpen,
   "controls-and-gameplay-guide": Keyboard,
   "best-positions-tier-list": Trophy,
+  "teams-uniforms-and-stadiums": Football,
+  "ranked-park-and-matchmaking": Target,
+  "coins-ovr-and-progression": Coins,
+  "updates-and-events-tracker": CalendarClock,
 } as const;
 
 // Tier 徽章配色（全部走主题色变量，无硬编码色）
@@ -611,6 +623,236 @@ export default function HomePageClient({
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Teams, Uniforms, Stadiums, and Merch */}
+      <section
+        id="teams-uniforms-and-stadiums"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <ModuleHeader
+            sectionId="teams-uniforms-and-stadiums"
+            eyebrow={t.modules.nflTeamsUniformsAndStadiums.eyebrow}
+            title={t.modules.nflTeamsUniformsAndStadiums.title}
+            intro={t.modules.nflTeamsUniformsAndStadiums.intro}
+          />
+          <div className="space-y-6 scroll-reveal">
+            {/* All 32 NFL Teams wide card */}
+            <div className="rounded-2xl border border-border bg-card p-5 md:p-7">
+              <div className="mb-5 flex items-center gap-3">
+                <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] md:h-12 md:w-12">
+                  <Football className="h-5 w-5 text-[hsl(var(--nav-theme-light))] md:h-6 md:w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold md:text-xl">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.description}
+                  </p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+                <div>
+                  <p className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.afcLabel}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.afc.map(
+                      (team: string, i: number) => (
+                        <span
+                          key={i}
+                          className="rounded-md border border-border bg-white/5 px-2.5 py-1 text-xs"
+                        >
+                          {team}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </div>
+                <div>
+                  <p className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.nfcLabel}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {t.modules.nflTeamsUniformsAndStadiums.teamsCard.nfc.map(
+                      (team: string, i: number) => (
+                        <span
+                          key={i}
+                          className="rounded-md border border-border bg-white/5 px-2.5 py-1 text-xs"
+                        >
+                          {team}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature cards */}
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {t.modules.nflTeamsUniformsAndStadiums.features.map(
+                (f: any, i: number) => (
+                  <div
+                    key={i}
+                    className="flex flex-col rounded-xl border border-border bg-card p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+                  >
+                    <h4 className="mb-2 text-base font-bold">{f.title}</h4>
+                    <p className="mb-3 text-sm text-muted-foreground">
+                      {f.description}
+                    </p>
+                    <p className="mt-auto flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] p-3 text-xs text-muted-foreground">
+                      <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      {f.playerValue}
+                    </p>
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Ranked Park and Matchmaking */}
+      <section
+        id="ranked-park-and-matchmaking"
+        className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <ModuleHeader
+            sectionId="ranked-park-and-matchmaking"
+            eyebrow={t.modules.nflRankedParkAndMatchmaking.eyebrow}
+            title={t.modules.nflRankedParkAndMatchmaking.title}
+            intro={t.modules.nflRankedParkAndMatchmaking.intro}
+          />
+          <div className="grid grid-cols-1 gap-4 scroll-reveal md:grid-cols-2">
+            {t.modules.nflRankedParkAndMatchmaking.strategies.map(
+              (s: any, i: number) => (
+                <div
+                  key={i}
+                  className="flex flex-col rounded-xl border border-border bg-card p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-6"
+                >
+                  <div className="mb-3 flex items-start justify-between gap-3">
+                    <h3 className="text-base font-bold md:text-lg">{s.title}</h3>
+                    <span className="flex-shrink-0 rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)] px-2.5 py-0.5 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                      {s.priority}
+                    </span>
+                  </div>
+                  <p className="mb-3 text-sm text-muted-foreground">
+                    {s.whatItMeans}
+                  </p>
+                  <p className="mt-auto flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] p-3 text-sm text-muted-foreground">
+                    <Target className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    <span>
+                      <span className="font-semibold text-foreground">
+                        Best use:
+                      </span>{" "}
+                      {s.bestUse}
+                    </span>
+                  </p>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 新模块组中段阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Coins, OVR, and Progression */}
+      <section
+        id="coins-ovr-and-progression"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <ModuleHeader
+            sectionId="coins-ovr-and-progression"
+            eyebrow={t.modules.nflCoinsOvrAndProgression.eyebrow}
+            title={t.modules.nflCoinsOvrAndProgression.title}
+            intro={t.modules.nflCoinsOvrAndProgression.intro}
+          />
+          <div className="grid grid-cols-1 gap-4 scroll-reveal md:grid-cols-2 lg:grid-cols-3">
+            {t.modules.nflCoinsOvrAndProgression.progression.map(
+              (p: any, i: number) => (
+                <div
+                  key={i}
+                  className="flex flex-col rounded-xl border border-border bg-card p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+                >
+                  <h3 className="mb-2 text-base font-bold">{p.title}</h3>
+                  <span className="mb-3 inline-block w-fit rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2.5 py-0.5 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {p.mechanic}
+                  </span>
+                  <p className="mb-3 text-sm text-muted-foreground">
+                    {p.playerAction}
+                  </p>
+                  <p className="mt-auto flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] p-3 text-xs text-muted-foreground">
+                    <Coins className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    {p.rewardImpact}
+                  </p>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Updates and Events Tracker */}
+      <section
+        id="updates-and-events-tracker"
+        className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <ModuleHeader
+            sectionId="updates-and-events-tracker"
+            eyebrow={t.modules.nflUpdatesAndEventsTracker.eyebrow}
+            title={t.modules.nflUpdatesAndEventsTracker.title}
+            intro={t.modules.nflUpdatesAndEventsTracker.intro}
+          />
+          <div className="relative space-y-4 scroll-reveal before:absolute before:content-[''] before:left-[19px] before:top-2 before:bottom-2 before:w-px before:bg-border md:before:left-[23px]">
+            {t.modules.nflUpdatesAndEventsTracker.timeline.map(
+              (ev: any, i: number) => (
+                <div key={i} className="relative flex gap-4 md:gap-5">
+                  <div className="relative z-10 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.15)] md:h-12 md:w-12">
+                    <CalendarClock className="h-4 w-4 text-[hsl(var(--nav-theme-light))] md:h-5 md:w-5" />
+                  </div>
+                  <div className="flex-1 rounded-xl border border-border bg-card p-4 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-5">
+                    <span className="mb-1.5 inline-block rounded-md bg-[hsl(var(--nav-theme)/0.1)] px-2 py-0.5 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                      {ev.date}
+                    </span>
+                    <h3 className="mb-1.5 text-base font-bold md:text-lg">
+                      {ev.title}
+                    </h3>
+                    <p className="mb-3 text-sm text-muted-foreground">
+                      {ev.summary}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {ev.highlights.map((h: string, j: number) => (
+                        <span
+                          key={j}
+                          className="rounded-full border border-border bg-white/5 px-2.5 py-0.5 text-xs text-muted-foreground"
+                        >
+                          {h}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ),
+            )}
           </div>
         </div>
       </section>
