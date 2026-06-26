@@ -71,9 +71,6 @@ export type ContentType = typeof CONTENT_TYPES[number]
 // 支持的语言（使用 routing.ts 中的 Locale 类型）
 export type Language = Locale
 
-// 支持的语言列表（从 routing 派生，保证 routing.ts / request.ts / content.ts 三处语言集合完全一致）
-export const validLanguages: Locale[] = [...routing.locales]
-
 // 内容项接口
 export interface ContentItem {
   slug: string
@@ -207,4 +204,47 @@ export function isValidLanguage(lang: string): lang is Language {
  */
 export function getDefaultLanguage(): Language {
   return routing.defaultLocale as Language
+}
+
+/**
+ * 取内容的更新时间戳（优先 lastModified，其次 date；无则 0）。
+ * 模板内置此工具函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export function getContentUpdateTime(frontmatter?: ContentFrontmatter): number {
+  if (!frontmatter) return 0
+  if (frontmatter.lastModified) return new Date(frontmatter.lastModified).getTime()
+  if (frontmatter.date) return new Date(frontmatter.date).getTime()
+  return 0
+}
+
+/**
+ * 按 (contentType, language, slug) 取单篇内容的 frontmatter（含 en 回退）。
+ * 模板内置此函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export async function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): Promise<ContentFrontmatter | null> {
+  const curFile = entriesFor(language, contentType).find((e) => e.slug === slug)?.file
+  if (curFile) {
+    try {
+      const mod = await import(`../../content/${language}/${contentType}/${curFile}.mdx`)
+      return mod.metadata as ContentFrontmatter
+    } catch {
+      /* fall through to en */
+    }
+  }
+  if (language !== 'en') {
+    const enFile = entriesFor('en', contentType).find((e) => e.slug === slug)?.file
+    if (enFile) {
+      try {
+        const mod = await import(`../../content/en/${contentType}/${enFile}.mdx`)
+        return mod.metadata as ContentFrontmatter
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  return null
 }

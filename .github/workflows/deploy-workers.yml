@@ -28,7 +28,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # npm ci 严格要求 lock 与 package.json 同步；历史遗留站 lock 过期（缺传递依赖如
+        # @swc/helpers）会 EUSAGE 直接栽掉 install。fallback npm install 自愈重解析
+        # （lock 同步的站走 npm ci 不受影响，性能不降）。
+        run: npm ci || npm install --no-audit --no-fund
 
       - name: Install Wrangler (no package.json change)
         # 静态导出 + asset-only：不再需要 OpenNext，只需 wrangler 部署静态资产

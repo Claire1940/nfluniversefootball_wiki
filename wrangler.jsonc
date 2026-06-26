@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "lucidblocks-wiki",
+  "name": "nfluniversefootball-wiki",
   "compatibility_date": "2025-03-10",
   // asset-only：无 main/worker 脚本，内容页由 Cloudflare 资产服务器直接返回 = 0 Worker CPU。
   // out/ 为 Next 静态导出产物；构建后已把默认语言 en 提升到根（保持无前缀 URL）。
@@ -9,7 +9,10 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // workers_dev:false：asset-only 站只靠自定义 route 服务，无需也不暴露 *.workers.dev 子域名；
+  //   禁用后 wrangler deploy 跳过 /subdomain 注册，规避 Cloudflare 间歇性 [code 10013] 导致 deploy 中断、route 未绑定（bee-swarm-simulator.wiki 首次部署踩坑）。
+  "workers_dev": false,
   "routes": [
-    { "pattern": "www.lucidblocks.wiki/*", "zone_name": "lucidblocks.wiki" }
+    { "pattern": "www.nfluniversefootball.wiki/*", "zone_name": "nfluniversefootball.wiki" }
   ]
 }
