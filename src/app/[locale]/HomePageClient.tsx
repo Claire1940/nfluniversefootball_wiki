@@ -8,7 +8,7 @@ import {
   Check,
   Coins,
   Copy,
-  Football,
+  Shield,
   Gift,
   Keyboard,
   Sparkles,
@@ -62,7 +62,7 @@ const MODULE_EYEBROW_ICON = {
   "beginner-guide": BookOpen,
   "controls-and-gameplay-guide": Keyboard,
   "best-positions-tier-list": Trophy,
-  "teams-uniforms-and-stadiums": Football,
+  "teams-uniforms-and-stadiums": Shield,
   "ranked-park-and-matchmaking": Target,
   "coins-ovr-and-progression": Coins,
   "updates-and-events-tracker": CalendarClock,
@@ -674,7 +674,7 @@ export default function HomePageClient({
             <div className="rounded-2xl border border-border bg-card p-5 md:p-7">
               <div className="mb-5 flex items-center gap-3">
                 <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] md:h-12 md:w-12">
-                  <Football className="h-5 w-5 text-[hsl(var(--nav-theme-light))] md:h-6 md:w-6" />
+                  <Shield className="h-5 w-5 text-[hsl(var(--nav-theme-light))] md:h-6 md:w-6" />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold md:text-xl">
