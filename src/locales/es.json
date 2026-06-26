@@ -1,10 +1,890 @@
 {
+  "seo": {
+    "home": {
+      "title": "NFL Universe Football Wiki - Códigos, Equipos y Builds",
+      "description": "NFL Universe Football Wiki cubre códigos de Roblox, controles, equipos, estadios, builds, Ranked Park, actualizaciones y consejos para principiantes para mejorar en el juego.",
+      "keywords": "NFL Universe Football, Roblox, códigos, controles, equipos, builds, clasificado",
+      "ogTitle": "NFL Universe Football Wiki - Códigos, Equipos y Builds",
+      "ogDescription": "NFL Universe Football Wiki cubre códigos de Roblox, controles, equipos, estadios, builds, Ranked Park, actualizaciones y consejos para principiantes para mejorar en el juego.",
+      "twitterTitle": "NFL Universe Football Wiki - Códigos, Equipos y Builds",
+      "twitterDescription": "NFL Universe Football Wiki cubre códigos de Roblox, controles, equipos, estadios, builds y actualizaciones para la experiencia oficial de la NFL."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "ranked": "Ranked",
-    "positions": "Positions",
-    "controls": "Controls",
-    "items": "Items"
+    "codes": "Códigos",
+    "guide": "Guía",
+    "ranked": "Clasificatorio",
+    "positions": "Posiciones",
+    "controls": "Controles",
+    "items": "Objetos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Experiencia oficial de fútbol de la NFL en Roblox",
+    "title": "NFL Universe Football Wiki",
+    "description": "Juega al fútbol de Roblox con los 32 equipos de la NFL, uniformes oficiales, estadios, Ranked Park, progresión de OVR, celebraciones, códigos y partidos competitivos por equipos.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "929M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "13.5K+",
+        "label": "Pico de CCU en 24h"
+      },
+      "stat3": {
+        "value": "32",
+        "label": "Equipos de la NFL"
+      },
+      "stat4": {
+        "value": "32",
+        "label": "Estadios de la NFL"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de NFL Universe Football",
+    "description": "Juega con los 32 equipos de la NFL en partidos de 6v6, modo de práctica, juego en el parque y enfrentamientos clasificatorios con progresión de OVR, uniformes oficiales, estadios y recompensas temáticas de la NFL."
+  },
+  "tools": {
+    "title": "NFL Universe Football",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos, guía para principiantes, controles, posiciones, equipos, Ranked Park, progresión y actualizaciones para NFL Universe Football en Roblox.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos y recompensas",
+        "description": "Códigos activos y expirados de NFL Universe Football con recompensas"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Primer partido, roles, OVR y Coins para nuevos jugadores"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controles y jugabilidad",
+        "description": "Controles en PC y móvil para pasar, atrapar y defender"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de las mejores posiciones",
+        "description": "QB, WR, DB, RB, pateador y bloqueador clasificados para principiantes"
+      },
+      {
+        "icon": "Shield",
+        "title": "Equipos, uniformes y estadios",
+        "description": "Los 32 equipos de la NFL, uniformes, estadios y merchandising de los equipos"
+      },
+      {
+        "icon": "Target",
+        "title": "Ranked Park y emparejamiento",
+        "description": "Ranked en Park, emparejamiento basado en habilidad y partidos serios"
+      },
+      {
+        "icon": "Coins",
+        "title": "Coins, OVR y progresión",
+        "description": "Bonificaciones de Coins, crecimiento de OVR, hitos y recompensas de la NFL"
+      },
+      {
+        "icon": "CalendarClock",
+        "title": "Seguimiento de actualizaciones y eventos",
+        "description": "Temporadas, parches, eventos y contenido limitado en un solo lugar"
+      }
+    ]
+  },
+  "modules": {
+    "nflCodesAndRewards": {
+      "eyebrow": "Códigos",
+      "title": "Códigos y recompensas de NFL Universe Football",
+      "intro": "Los códigos de NFL Universe Football se canjean en el juego por recompensas como Pro Packs, Coins, paquetes de recompensas gratuitos y artículos de eventos limitados. Las fuentes de códigos más seguras son la página oficial del juego en Roblox, el servidor oficial de Discord y los canales sociales oficiales de NFL Universe Football.",
+      "items": [
+        {
+          "code": "UNIFORMS26",
+          "status": "Activo",
+          "reward": "Recompensas gratuitas",
+          "rewardType": "Recompensa de actualización",
+          "source": "Ciclo de actualización oficial",
+          "redeemNote": "Abre NFL Universe Football en Roblox, introduce el código en el menú de códigos del juego y reclama la recompensa antes de que cambie la rotación de actualizaciones."
+        },
+        {
+          "code": "MIXTAPE",
+          "status": "Activo",
+          "reward": "1 Pro Pack",
+          "rewardType": "Recompensa de paquete",
+          "source": "Ciclo de actualización oficial",
+          "redeemNote": "Usa este código desde el menú de códigos del juego para reclamar una recompensa de paquete para tu cuenta."
+        },
+        {
+          "code": "STADIUMS",
+          "status": "Activo",
+          "reward": "Recompensas gratuitas",
+          "rewardType": "Recompensa de actualización de estadio",
+          "source": "Ciclo de actualización oficial",
+          "redeemNote": "Canjéalo después de unirte a la experiencia de Roblox y revisar el menú de códigos actual."
+        },
+        {
+          "code": "SZN6",
+          "status": "Activo",
+          "reward": "1 Pro Pack",
+          "rewardType": "Recompensa de temporada",
+          "source": "Canal social oficial de NFL Universe Football",
+          "redeemNote": "Los códigos de temporada están vinculados al periodo de la temporada activa, así que canjéalo antes del próximo cambio de temporada."
+        },
+        {
+          "code": "HEATINGUP",
+          "status": "Activo",
+          "reward": "Recompensas gratuitas",
+          "rewardType": "Recompensa de evento",
+          "source": "Ciclo de actualización oficial",
+          "redeemNote": "Introduce el código exactamente como está escrito, sin espacios antes ni después del texto."
+        },
+        {
+          "code": "BRAINROT",
+          "status": "Activo",
+          "reward": "Recompensa de Pro Pack",
+          "rewardType": "Recompensa de evento limitado",
+          "source": "Canal social oficial de NFL Universe Football",
+          "redeemNote": "Usa este código durante el periodo del evento limitado para reclamar la recompensa vinculada al evento."
+        },
+        {
+          "code": "HBCU",
+          "status": "Activo",
+          "reward": "10,000 Coins",
+          "rewardType": "Recompensa de Coins",
+          "source": "Canal social oficial de NFL Universe Football",
+          "redeemNote": "Los códigos de Coins añaden divisa a tu cuenta para el progreso en el juego y cosméticos."
+        },
+        {
+          "code": "CHRISTMAS2025",
+          "status": "Expirado",
+          "reward": "Artículo cosmético limitado",
+          "rewardType": "Cosmético festivo",
+          "source": "Rotación de eventos oficial",
+          "redeemNote": "Los códigos festivos están limitados a eventos y deben mantenerse en la lista de expirados para los usuarios que buscan recompensas antiguas."
+        },
+        {
+          "code": "HAPPYTHANKSGIVING25",
+          "status": "Expirado",
+          "reward": "Recompensa gratuita",
+          "rewardType": "Recompensa de evento festivo",
+          "source": "Canal social oficial de NFL Universe Football",
+          "redeemNote": "Este código pertenecía al periodo del evento de Acción de Gracias y es útil como referencia de código expirado."
+        }
+      ]
+    },
+    "nflBeginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de NFL Universe Football",
+      "intro": "NFL Universe Football es la experiencia de fútbol americano en Roblox de Voldex, anteriormente conocida como Ultimate Football. El juego incluye los 32 equipos de la NFL, uniformes de la NFL, estadios de la NFL, partidos 6v6, modo de práctica, tipos de partidos de park, un centro de intercambio, progresión de OVR y artículos exclusivos con temática de la NFL que se obtienen a través de desafíos, eventos y logros.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Únete a la experiencia oficial de Roblox",
+          "goal": "Comienza desde la página oficial de Roblox de NFL Universe Football.",
+          "details": "Inicia el juego desde la lista oficial de Roblox de NFL Universe Football de Voldex. La página identifica al juego como la mejor experiencia de fútbol americano en Roblox y señala que anteriormente se conocía como Ultimate Football.",
+          "beginnerTip": "Sigue la página de la experiencia de Roblox para que sea más fácil encontrar las alertas de actualización, los cambios de temporada y las rotaciones de eventos."
+        },
+        {
+          "step": 2,
+          "title": "Elige un equipo de la NFL",
+          "goal": "Elige un equipo familiar y concéntrate en aprender el flujo del partido.",
+          "details": "NFL Universe Football permite a los jugadores jugar en cualquiera de los 32 equipos de la NFL, con uniformes y estadios oficiales de la NFL incluidos en la experiencia.",
+          "beginnerTip": "Tu primera elección de equipo es menos importante que aprender dónde pararte, cuándo correr y cuándo pasar."
+        },
+        {
+          "step": 3,
+          "title": "Usa primero el modo de práctica",
+          "goal": "Aprende a pasar, atrapar, patear y moverte antes de saltar a partidos serios.",
+          "details": "El anuncio oficial de la NFL y Voldex incluye el modo de práctica como una de las actividades principales del juego, junto con los partidos 6v6, el modo park y el centro de intercambio.",
+          "beginnerTip": "Pasa unos minutos practicando el tiempo antes de jugar como Quarterback. Lanzar al azar no es una estrategia, a pesar de lo que los lobbies públicos demuestran con valentía."
+        },
+        {
+          "step": 4,
+          "title": "Comienza con roles sencillos",
+          "goal": "Aprende los conceptos básicos de receptor, defensor y corredor antes de hacerte cargo de las decisiones del Quarterback.",
+          "details": "El juego se centra en pases de Touchdown, Field Goal, jugadas de carrera, defensa y partidos de fútbol americano en equipo. Los principiantes deben entender el tiempo de las rutas y el espacio defensivo antes de intentar controlar cada jugada ofensiva.",
+          "beginnerTip": "Los roles de receptor y defensor enseñan el tiempo más rápido que el de Quarterback porque puedes concentrarte en un trabajo a la vez."
+        },
+        {
+          "step": 5,
+          "title": "Juega partidos 6v6",
+          "goal": "Aprende el flujo del fútbol americano de equipo completo en el formato de partido principal.",
+          "details": "NFL Universe Football admite partidos 6v6 llenos de acción donde los jugadores trabajan juntos para anotar, defender y ganar posesiones.",
+          "beginnerTip": "Mira el balón, pero no lo persigas a ciegas. Tu posición importa más que correr a toda velocidad en un pánico decorativo."
+        },
+        {
+          "step": 6,
+          "title": "Prueba los tipos de partidos de park",
+          "goal": "Usa los juegos de park para practicar enfrentamientos más pequeños y una toma de decisiones más rápida.",
+          "details": "El modo park incluye múltiples tipos de partidos y ahora cuenta con juego clasificado y emparejamiento basado en la habilidad en las actualizaciones de park.",
+          "beginnerTip": "Los juegos de park son útiles para aprender la cobertura uno a uno, las ventanas de recepción y lecturas ofensivas rápidas."
+        },
+        {
+          "step": 7,
+          "title": "Mejora tu OVR",
+          "goal": "Mejora la progresión de tu cuenta a través del rendimiento en partidos reales.",
+          "details": "La página del juego en Roblox destaca la progresión de OVR como una forma de presumir tus habilidades. Las actualizaciones recientes también enfatizan la progresión de XP y el juego basado en la habilidad.",
+          "beginnerTip": "Concéntrate en recepciones limpias, tacleadas inteligentes y jugadas completadas. El OVR sube mejor cuando dejas de tratar cada posesión como un experimento de lanzar una moneda al aire."
+        },
+        {
+          "step": 8,
+          "title": "Reclama recompensas de bonificación",
+          "goal": "Usa los aumentos de recompensa oficiales y los sistemas de eventos para recolectar más artículos.",
+          "details": "Los jugadores de Roblox Premium reciben un 25% más de Coins, y los jugadores que se unen al grupo oficial de la comunidad de Roblox también reciben un 25% más de Coins. El equipamiento con temática de la NFL también se puede ganar a través de desafíos, eventos especiales y logros.",
+          "beginnerTip": "Únete a las rutas oficiales de la comunidad antes de empezar a farmear para no perderte las bonificaciones de Coins y los avisos de eventos."
+        }
+      ]
+    },
+    "nflControlsAndGameplay": {
+      "eyebrow": "Controles",
+      "title": "Guía de controles y jugabilidad de NFL Universe Football",
+      "intro": "La jugabilidad de NFL Universe Football se basa en las acciones de fútbol americano de Roblox: lanzar pases para Touchdowns, atrapar rutas, correr con el balón, realizar tacleadas en defensa, patear Field Goals y trabajar en equipo en partidos de 6v6 o de parque. Los controles pueden variar ligeramente según el dispositivo y las indicaciones del juego, pero estas son las principales acciones que los principiantes deben aprender primero.",
+      "controls": [
+        {
+          "category": "Movimiento",
+          "action": "Moverse",
+          "pcInput": "WASD",
+          "mobileInput": "Joystick virtual izquierdo",
+          "useCase": "Posiciónate antes y durante cada jugada.",
+          "beginnerTip": "Muévete hacia el espacio abierto en la ofensiva y mantén tu zona en la defensiva en lugar de perseguir a todos los jugadores."
+        },
+        {
+          "category": "Movimiento",
+          "action": "Esprintar",
+          "pcInput": "Shift",
+          "mobileInput": "Botón de esprintar o movimiento extendido del joystick",
+          "useCase": "Crea separación, cierra brechas, persigue a los portadores del balón y llega al campo abierto.",
+          "beginnerTip": "Esprinta después de que se desarrolle la jugada; esprintar constantemente hace que las rutas sean descuidadas y las tacleadas más fáciles de fallar."
+        },
+        {
+          "category": "Movimiento",
+          "action": "Saltar",
+          "pcInput": "Barra espaciadora",
+          "mobileInput": "Botón de saltar",
+          "useCase": "Disputa recepciones, alcanza pases y ajústate durante las peleas cercanas por el balón.",
+          "beginnerTip": "Salta solo cuando el balón esté llegando. Los saltos anticipados convierten recepciones fáciles en una comedia pública."
+        },
+        {
+          "category": "Ofensiva",
+          "action": "Lanzar pase",
+          "pcInput": "Mantén presionado y suelta el clic izquierdo",
+          "mobileInput": "Toca y mantén presionado el botón de lanzar, luego suéltalo",
+          "useCase": "Quarterback pasando a los receptores durante las jugadas ofensivas.",
+          "beginnerTip": "Mantén presionado más tiempo para obtener más potencia y suéltalo hacia la ruta del receptor, no hacia donde estaba hace dos segundos."
+        },
+        {
+          "category": "Ofensiva",
+          "action": "Atrapar",
+          "pcInput": "Haz clic izquierdo cuando se te indique o cuando llegue el balón",
+          "mobileInput": "Toca el botón de atrapar cuando el balón esté cerca",
+          "useCase": "Recepciones del receptor, intercepciones defensivas y jugadas disputadas.",
+          "beginnerTip": "Ponte de frente al balón y calcula el tiempo de la acción. Un buen posicionamiento importa más que hacer clics frenéticos."
+        },
+        {
+          "category": "Ofensiva",
+          "action": "Correr con el balón",
+          "pcInput": "WASD más esprintar",
+          "mobileInput": "Joystick más control de esprintar",
+          "useCase": "Jugadas de carrera, yardas después de la recepción e intentos de anotación en campo abierto.",
+          "beginnerTip": "Usa ángulos en lugar de correr directamente hacia los defensores como un heroico cono de tráfico."
+        },
+        {
+          "category": "Ofensiva",
+          "action": "Bloquear o entregar el balón",
+          "pcInput": "X cuando la situación lo permita",
+          "mobileInput": "Indicación de bloqueo o entrega de balón en pantalla",
+          "useCase": "Apoya a un portador del balón o entrega el balón a un compañero de equipo durante jugadas diseñadas.",
+          "beginnerTip": "Bloquear es útil cuando no eres el objetivo. El fútbol americano sigue siendo un juego de equipo, por molesto que parezca."
+        },
+        {
+          "category": "Defensiva",
+          "action": "Lanzarse o taclear",
+          "pcInput": "E",
+          "mobileInput": "Botón de lanzarse o taclear",
+          "useCase": "Detén a los portadores del balón, disputa recepciones y fuerza paradas defensivas.",
+          "beginnerTip": "No te lances demasiado pronto. Espera hasta que el corredor se decida por un carril."
+        },
+        {
+          "category": "Defensiva",
+          "action": "Cubrir al receptor",
+          "pcInput": "Sincronización de WASD, esprintar, saltar y atrapar",
+          "mobileInput": "Botones de joystick, esprintar, saltar y atrapar",
+          "useCase": "Mantente cerca de los receptores, interrumpe pases e intenta intercepciones.",
+          "beginnerTip": "Mantente entre el receptor y la zona de anotación al defender rutas profundas."
+        },
+        {
+          "category": "Equipos especiales",
+          "action": "Patear o Field Goal",
+          "pcInput": "Usa las indicaciones del medidor de patada en pantalla",
+          "mobileInput": "Usa las indicaciones del medidor de patada en pantalla",
+          "useCase": "Field Goals, situaciones de punto extra y jugadas de patada.",
+          "beginnerTip": "Observa atentamente el medidor y las indicaciones de tiempo. Patear es cuestión de sincronización, no de optimismo espiritual."
+        },
+        {
+          "category": "Gestión de jugadas",
+          "action": "Pedir jugada o seleccionar opción",
+          "pcInput": "Teclas numéricas 1-9 o indicaciones de jugada en pantalla",
+          "mobileInput": "Toca los botones de pedir jugada",
+          "useCase": "Elige opciones de jugadas ofensivas o defensivas cuando estén disponibles.",
+          "beginnerTip": "Elige jugadas sencillas al principio. Las jugadas complicadas no sirven de nada si nadie sabe dónde colocarse."
+        },
+        {
+          "category": "Control de cámara y jugador",
+          "action": "Cambiar de jugador o ajustar vista",
+          "pcInput": "Rueda del mouse, teclas numéricas o controles de cámara cuando estén disponibles",
+          "mobileInput": "Controles de cambio o de cámara en pantalla",
+          "useCase": "Sigue el balón, alinea rutas y reacciona a los cambios de la jugada en vivo.",
+          "beginnerTip": "Mantén la cámara en el balón y en el espacio abierto, no solo en la gloriosa confusión de tu avatar."
+        }
+      ]
+    },
+    "nflBestPositions": {
+      "eyebrow": "Lista de niveles",
+      "title": "Lista de niveles de las mejores posiciones de NFL Universe Football",
+      "intro": "NFL Universe Football cuenta con un juego de fútbol americano basado en equipos estructurado en torno a pases, recepciones, carreras, tacleadas, Field Goals, partidos 6v6, modo de práctica, modo parque y progresión de OVR. El mejor camino para principiantes es aprender primero el tiempo de los receptores y defensores, y luego pasar a Quarterback una vez que las lecturas de pase y el tiempo de las rutas tengan sentido.",
+      "positions": [
+        {
+          "tier": "S",
+          "position": "Quarterback",
+          "roleType": "Pasador principal y conductor del juego",
+          "beginnerDifficulty": "Difícil",
+          "matchImpact": "Muy alto",
+          "scoringValue": "Muy alto",
+          "teamUsefulness": "Muy alto",
+          "whyItRanksHere": "Quarterback controla la mayoría de las jugadas de pase, crea oportunidades de Touchdown y marca el ritmo de la ofensiva. El rol tiene el mayor impacto pero también la mayor presión porque las malas lecturas se convierten rápidamente en pérdidas de posesión.",
+          "bestFor": "Jugadores que pueden leer los espacios, calcular el tiempo de los lanzamientos y mantener la calma bajo presión.",
+          "starterTip": "Practica los pases antes de jugar como Quarterback en partidos reales."
+        },
+        {
+          "tier": "A",
+          "position": "Wide Receiver",
+          "roleType": "Corredor de rutas y receptor",
+          "beginnerDifficulty": "Medio",
+          "matchImpact": "Alto",
+          "scoringValue": "Alto",
+          "teamUsefulness": "Alto",
+          "whyItRanksHere": "Los receptores convierten los pases en yardas, Touchdowns y dinamismo. Este rol es más fácil de iniciar que el de Quarterback, al mismo tiempo que enseña sobre espacios, tiempos, recepciones y movimiento de rutas.",
+          "bestFor": "Jugadores que están aprendiendo la ofensiva, el tiempo de recepción y el movimiento en campo abierto.",
+          "starterTip": "Crea separación antes de pedir el balón."
+        },
+        {
+          "tier": "A",
+          "position": "Defensa secundario",
+          "roleType": "Defensor de cobertura y amenaza de intercepción",
+          "beginnerDifficulty": "Medio",
+          "matchImpact": "Alto",
+          "scoringValue": "Medio",
+          "teamUsefulness": "Muy alto",
+          "whyItRanksHere": "Los defensas secundarios detienen los pases profundos, disputan las recepciones y pueden cambiar la posesión con intercepciones. Una cobertura sólida puede frenar a los Quarterbacks agresivos y proteger la zona de anotación.",
+          "bestFor": "Jugadores con buen tiempo de reacción y paciencia.",
+          "starterTip": "Mantente entre el receptor y la zona de anotación en lugar de perseguirlo desde atrás."
+        },
+        {
+          "tier": "B",
+          "position": "Running Back o portador del balón",
+          "roleType": "Corredor y receptor de yardas después de la recepción",
+          "beginnerDifficulty": "Medio",
+          "matchImpact": "Medio",
+          "scoringValue": "Medio",
+          "teamUsefulness": "Medio",
+          "whyItRanksHere": "Correr puede generar ganancias constantes y aprovechar los carriles abiertos, pero el rol depende en gran medida del tiempo, los bloqueos y los ángulos de los defensores. Es valioso cuando la defensa se enfoca demasiado en el pase.",
+          "bestFor": "Jugadores a los que les gusta el movimiento, los esquives y las ganancias de pocas yardas.",
+          "starterTip": "Corre hacia el espacio libre, no directamente hacia el defensor más cercano con la confianza de un carrito de compras."
+        },
+        {
+          "tier": "B",
+          "position": "Pateador",
+          "roleType": "Especialista en Field Goal y punto extra",
+          "beginnerDifficulty": "Fácil a medio",
+          "matchImpact": "Medio",
+          "scoringValue": "Medio",
+          "teamUsefulness": "Medio",
+          "whyItRanksHere": "Patear es importante en partidos reñidos y situaciones de Field Goal, pero el rol aparece con menos frecuencia que el de Quarterback, receptor o defensor. Un buen tiempo de patada aún puede decidir partidos ajustados.",
+          "bestFor": "Jugadores que prefieren la ejecución basada en el tiempo en lugar del movimiento constante de rutas.",
+          "starterTip": "Usa el tiempo de práctica para aprender a usar el medidor de patada antes de los intentos importantes."
+        },
+        {
+          "tier": "C",
+          "position": "Bloqueador puro",
+          "roleType": "Jugador de apoyo",
+          "beginnerDifficulty": "Fácil",
+          "matchImpact": "Bajo a medio",
+          "scoringValue": "Bajo",
+          "teamUsefulness": "Medio",
+          "whyItRanksHere": "El bloqueo ayuda a los corredores y receptores, pero generalmente tiene un valor de anotación directa menor que pasar, atrapar, defender o patear. Sigue siendo útil cuando se coordina con los compañeros de equipo.",
+          "bestFor": "Jugadores que están aprendiendo el trabajo en equipo, el posicionamiento y el tiempo de apoyo.",
+          "starterTip": "Bloquea solo cuando ayude al portador del balón a ganar espacio."
+        }
+      ]
+    },
+    "nflTeamsUniformsAndStadiums": {
+      "eyebrow": "Branding de la NFL",
+      "title": "Equipos, uniformes, estadios y merchandising de NFL Universe Football",
+      "intro": "NFL Universe Football es la evolución con marca de la NFL de Ultimate Football en Roblox. La experiencia destaca a los 32 equipos de la NFL, uniformes actualizados, los 32 estadios de la NFL, nuevo merchandising de equipos de la NFL, artículos exclusivos de la NFL y cosméticos de orgullo de equipo para los jugadores que quieren ver a su club favorito representado en el juego.",
+      "teamsCard": {
+        "title": "Los 32 equipos de la NFL",
+        "description": "Cada club actual de la NFL está representado para el juego en equipo y la identidad de los aficionados.",
+        "afcLabel": "AFC",
+        "nfcLabel": "NFC",
+        "afc": [
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Cincinnati Bengals",
+          "Cleveland Browns",
+          "Denver Broncos",
+          "Houston Texans",
+          "Indianapolis Colts",
+          "Jacksonville Jaguars",
+          "Kansas City Chiefs",
+          "Las Vegas Raiders",
+          "Los Angeles Chargers",
+          "Miami Dolphins",
+          "New England Patriots",
+          "New York Jets",
+          "Pittsburgh Steelers",
+          "Tennessee Titans"
+        ],
+        "nfc": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Dallas Cowboys",
+          "Detroit Lions",
+          "Green Bay Packers",
+          "Los Angeles Rams",
+          "Minnesota Vikings",
+          "New Orleans Saints",
+          "New York Giants",
+          "Philadelphia Eagles",
+          "San Francisco 49ers",
+          "Seattle Seahawks",
+          "Tampa Bay Buccaneers",
+          "Washington Commanders"
+        ]
+      },
+      "features": [
+        {
+          "title": "Uniformes oficiales de la NFL",
+          "description": "Los uniformes actualizados de la NFL son parte de la lista actual de Roblox, y el anuncio de la NFL y Voldex describe los uniformes icónicos como una parte clave del cambio de marca.",
+          "playerValue": "Usa la identidad del equipo y los aspectos visuales de los uniformes de estilo oficial durante los partidos."
+        },
+        {
+          "title": "Los 32 estadios de la NFL",
+          "description": "La lista actual de Roblox destaca los 32 estadios de la NFL como parte del contenido más reciente de NFL Universe Football.",
+          "playerValue": "Una coincidencia directa para los jugadores que buscan si el estadio de su equipo favorito está representado."
+        },
+        {
+          "title": "Merchandising de equipos de la NFL",
+          "description": "El nuevo merchandising de equipos de la NFL se incluye en la última actualización, y el equipamiento y la mercancía con la marca de la NFL están vinculados a desafíos, eventos y logros.",
+          "playerValue": "Ideal para jugadores que quieren artículos de orgullo de equipo, equipamiento temático y personalización visual."
+        },
+        {
+          "title": "Artículos exclusivos de la NFL",
+          "description": "NFL Universe Football destaca artículos exclusivos de la NFL que se pueden desbloquear y ganar a través de la actividad en el juego, desafíos y eventos.",
+          "playerValue": "La categoría principal de colección para cosméticos y recompensas con la marca de la NFL."
+        },
+        {
+          "title": "De Ultimate Football a NFL Universe Football",
+          "description": "NFL Universe Football es la versión renovada de Ultimate Football de Voldex, actualizada con la propiedad intelectual de la NFL y contenido oficial de los equipos.",
+          "playerValue": "Ayuda a los jugadores que regresan a entender por qué cambiaron el nombre, la marca, los uniformes y el contenido del equipo."
+        }
+      ]
+    },
+    "nflRankedParkAndMatchmaking": {
+      "eyebrow": "Juego competitivo",
+      "title": "Ranked Park y emparejamiento de NFL Universe Football",
+      "intro": "NFL Universe Football admite fútbol americano casual con amigos, partidos de seis contra seis, modo de práctica, actividad en el centro de intercambio y tipos de partidos de Park. Los jugadores competitivos deben considerar Park como el destino principal para el juego serio, usar partidos casuales para calentar y pasar a Ranked Park una vez que el ritmo de pase, recepción, tacleo y patada sea estable.",
+      "strategies": [
+        {
+          "title": "Ranked en Park",
+          "priority": "Ruta clasificatoria principal",
+          "whatItMeans": "La Temporada 6 añadió Ranked en Park, trasladando el emparejamiento competitivo a la experiencia de Park.",
+          "bestUse": "Ponte en cola aquí cuando quieras partidos serios en lugar de juego casual de calentamiento."
+        },
+        {
+          "title": "Tres partidos casuales primero",
+          "priority": "Requisito de entrada",
+          "whatItMeans": "Las actualizaciones sociales oficiales describen que el emparejamiento de Ranked está disponible después de completar tres partidos casuales.",
+          "bestUse": "Usa los partidos casuales requeridos para probar el ritmo, el movimiento y la comodidad en el rol antes de entrar a Ranked."
+        },
+        {
+          "title": "Emparejamiento basado en la habilidad en Park",
+          "priority": "Calidad del partido",
+          "whatItMeans": "La lista actual de Roblox menciona el emparejamiento basado en la habilidad como una característica de Park.",
+          "bestUse": "Espera que los partidos de Park estén mejor adaptados para la mejora competitiva que el juego aleatorio no estructurado."
+        },
+        {
+          "title": "Mejoras en Park",
+          "priority": "Actualización de modo",
+          "whatItMeans": "La última descripción del juego enumera las mejoras de Park junto con los uniformes actualizados de la NFL.",
+          "bestUse": "Revisa Park primero al regresar después de una actualización, porque el modo está vinculado tanto al emparejamiento como a los cambios de Ranked."
+        },
+        {
+          "title": "Partidos de seis contra seis",
+          "priority": "Formato principal de fútbol americano",
+          "whatItMeans": "El anuncio de la NFL y Voldex describe partidos llenos de acción de seis contra seis como parte de la experiencia.",
+          "bestUse": "Coordina los roles claramente, porque los equipos más pequeños hacen que cada error de Quarterback, receptor, defensor y pateador sea más visible."
+        },
+        {
+          "title": "Practica antes de Ranked",
+          "priority": "Preparación de habilidades",
+          "whatItMeans": "El modo de práctica existe para pulir las mecánicas antes de enfrentarse a la presión del partido.",
+          "bestUse": "Calienta lanzamientos, recepciones, cortes, tacleos y Field Goals antes de arriesgar los resultados de Ranked."
+        },
+        {
+          "title": "Juega con amigos",
+          "priority": "Coordinación de equipo",
+          "whatItMeans": "La descripción del juego destaca competir en partidos de fútbol americano con amigos.",
+          "bestUse": "Ponte en cola con jugadores que entiendan los roles y el posicionamiento cuando quieras series ofensivas más limpias y menos jugadas rotas."
+        }
+      ]
+    },
+    "nflCoinsOvrAndProgression": {
+      "eyebrow": "Progresión",
+      "title": "NFL Universe Football Coins, OVR y Progresión",
+      "intro": "NFL Universe Football ofrece a los jugadores varias señales de progresión: OVR para el crecimiento de habilidades, Coins para el poder adquisitivo, bonificaciones de Coins por Premium y grupo para avanzar más rápido, y equipo de marca NFL de desafíos, eventos y hitos. El camino inicial es sencillo: únete al grupo oficial de Roblox para obtener el bono de Coins, practica las mecánicas principales, juega partidos de forma constante y usa las recompensas para la personalización a largo plazo.",
+      "progression": [
+        {
+          "title": "Progreso de OVR",
+          "mechanic": "Calificación general",
+          "playerAction": "Mejora el rendimiento en los partidos y sigue jugando roles de fútbol principales.",
+          "rewardImpact": "El OVR es la principal señal visible de crecimiento de habilidades en NFL Universe Football."
+        },
+        {
+          "title": "Bono de Coins de Roblox Premium",
+          "mechanic": "25% más de Coins",
+          "playerAction": "Juega mientras usas una cuenta de Roblox Premium.",
+          "rewardImpact": "Útil para jugadores que planean acumular partidos y cosméticos con el tiempo."
+        },
+        {
+          "title": "Bono de Coins del grupo oficial",
+          "mechanic": "25% más de Coins",
+          "playerAction": "Únete a la comunidad oficial de NFL Universe Football by Voldex en Roblox antes de empezar a jugar.",
+          "rewardImpact": "Un paso de configuración inicial sencillo para obtener más ingresos de Coins en el juego regular."
+        },
+        {
+          "title": "Recompensas por hitos",
+          "mechanic": "Hitos",
+          "playerAction": "Completa hitos en el juego mientras juegas partidos y eventos.",
+          "rewardImpact": "Los hitos están vinculados a la obtención de equipo y mercancía con temática de la NFL."
+        },
+        {
+          "title": "Desafíos y eventos",
+          "mechanic": "Recompensas de contenido activo",
+          "playerAction": "Participa en eventos especiales y desafíos en el juego cuando estén disponibles.",
+          "rewardImpact": "Los eventos y desafíos son la ruta principal para obtener artículos de marca NFL limitados o temáticos."
+        },
+        {
+          "title": "Artículos exclusivos de la NFL",
+          "mechanic": "Colección de cosméticos",
+          "playerAction": "Usa las recompensas obtenidas para construir una identidad con temática de equipo y de la NFL.",
+          "rewardImpact": "Ideal para la personalización a largo plazo en lugar de la habilidad bruta en el partido."
+        },
+        {
+          "title": "Rutina del modo de práctica",
+          "mechanic": "Entrenamiento de habilidades",
+          "playerAction": "Usa el modo de práctica antes de sesiones serias en Park o sesiones de Ranked.",
+          "rewardImpact": "Una mejor sincronización apoya el crecimiento del OVR y resultados de partidos más consistentes."
+        },
+        {
+          "title": "Ciclo de equipo del centro de intercambio",
+          "mechanic": "Intercambio de equipo",
+          "playerAction": "Usa el centro de intercambio después de recolectar equipo y cosméticos.",
+          "rewardImpact": "Ayuda a los jugadores enfocados en el coleccionismo a gestionar el equipo más allá de las recompensas normales de los partidos."
+        }
+      ]
+    },
+    "nflUpdatesAndEventsTracker": {
+      "eyebrow": "Actualizaciones",
+      "title": "Seguimiento de Actualizaciones y Eventos de NFL Universe Football",
+      "intro": "Las actualizaciones de NFL Universe Football se distribuyen en la lista de Roblox, publicaciones sociales oficiales, Discord y el rastro de anuncios de la NFL y Voldex. Este seguidor mantiene los cambios importantes para el jugador en un solo lugar: qué cambió, a qué modo afecta y por qué debería importarles a los jugadores que regresan.",
+      "timeline": [
+        {
+          "date": "2024-09-12",
+          "title": "La NFL y Voldex anuncian NFL Universe Football",
+          "summary": "La NFL y Voldex anunciaron la colaboración en Roblox que trajo la propiedad intelectual de la NFL a la experiencia anterior de Ultimate Football.",
+          "highlights": [
+            "Los 32 equipos de la NFL",
+            "Uniformes icónicos de la NFL",
+            "Artículos de marca NFL",
+            "Desafíos, eventos e hitos"
+          ]
+        },
+        {
+          "date": "2024-09-13",
+          "title": "La experiencia renovada ya está disponible",
+          "summary": "La versión con marca NFL de la experiencia pasó a estar disponible como NFL Universe Football.",
+          "highlights": [
+            "Renovación de marca de Ultimate Football",
+            "Identidad oficial del equipo",
+            "Actualizaciones regulares y eventos especiales"
+          ]
+        },
+        {
+          "date": "Última actualización",
+          "title": "Uniformes de la NFL actualizados y mejoras en Park",
+          "summary": "La lista actual de Roblox destaca los uniformes de la NFL actualizados y las mejoras en Park como cambios principales.",
+          "highlights": [
+            "Uniformes de la NFL actualizados",
+            "Mejoras en Park",
+            "Refresco visual para jugadores que regresan"
+          ]
+        },
+        {
+          "date": "Season 6",
+          "title": "Temporada 6 y Ranked en Park",
+          "summary": "La Temporada 6 añade Ranked en Park y convierte a Park en el destino clave para el emparejamiento competitivo.",
+          "highlights": [
+            "Temporada 6",
+            "Ranked en Park",
+            "Juego competitivo centrado en Park"
+          ]
+        },
+        {
+          "date": "Season 6",
+          "title": "El emparejamiento de Ranked se traslada a Park",
+          "summary": "Las actualizaciones sociales oficiales dirigen a los jugadores a Park para el emparejamiento de Ranked después de completar tres partidos casuales.",
+          "highlights": [
+            "Emparejamiento de Ranked",
+            "3 partidos casuales primero",
+            "Cola competitiva basada en Park"
+          ]
+        },
+        {
+          "date": "Última actualización",
+          "title": "Animaciones de First Down",
+          "summary": "Las animaciones de First Down se incluyen como parte de la actualización actual, añadiendo más presentación a las jugadas exitosas.",
+          "highlights": [
+            "Nueva función de animación",
+            "Estilo de celebración de avance",
+            "Mejora en la presentación de fútbol"
+          ]
+        },
+        {
+          "date": "Última actualización",
+          "title": "Emparejamiento basado en habilidades para Park",
+          "summary": "La lista actual identifica el emparejamiento basado en habilidades como una característica de Park.",
+          "highlights": [
+            "Emparejamiento en Park",
+            "Calidad de partidos competitivos",
+            "Mejor enrutamiento para el juego serio"
+          ]
+        },
+        {
+          "date": "Última actualización",
+          "title": "Nueva mercancía de equipos de la NFL y contenido de estadios",
+          "summary": "La lista más reciente destaca la nueva mercancía de equipos de la NFL, los 32 equipos de la NFL y los 32 estadios de la NFL.",
+          "highlights": [
+            "Nueva mercancía de equipos de la NFL",
+            "Los 32 equipos de la NFL",
+            "Los 32 estadios de la NFL"
+          ]
+        },
+        {
+          "date": "Modo de evento",
+          "title": "Jugabilidad de NFL FLAG",
+          "summary": "Las publicaciones oficiales describen que NFL FLAG está activo con banderas extraíbles, nuevas reglas de juego, recompensas y juego 2v2 y 3v3.",
+          "highlights": [
+            "NFL FLAG",
+            "2v2 y 3v3",
+            "Nuevas reglas y recompensas"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre NFL Universe Football",
+    "questions": [
+      {
+        "question": "¿Qué es NFL Universe Football?",
+        "answer": "NFL Universe Football es la experiencia oficial de fútbol americano de la NFL en Roblox creada por Voldex, anteriormente conocida como Ultimate Football. NFL Universe Football incluye los 32 equipos de la NFL, uniformes oficiales, estadios de la NFL, partidos 6v6, modo de práctica, juego en el parque, emparejamiento clasificado y progresión de OVR."
+      },
+      {
+        "question": "¿Cuántos equipos de la NFL hay en NFL Universe Football?",
+        "answer": "NFL Universe Football te permite jugar con cualquiera de los 32 equipos de la NFL, con uniformes oficiales de la NFL y estadios incluidos en la experiencia."
+      },
+      {
+        "question": "¿Tiene NFL Universe Football juego clasificado?",
+        "answer": "Sí. NFL Universe Football cuenta con Ranked in Park con emparejamiento basado en la habilidad, para que los jugadores puedan competir en tipos de partidos de Ranked Park junto con los partidos estándar de 6v6."
+      },
+      {
+        "question": "¿Cómo canjeo los códigos de NFL Universe Football?",
+        "answer": "Para canjear códigos de NFL Universe Football, abre el juego en Roblox, abre el menú de códigos dentro del juego, ingresa el código exactamente como está escrito y reclama la recompensa antes de que el código o la temporada cambien."
+      },
+      {
+        "question": "¿Qué es OVR en NFL Universe Football?",
+        "answer": "OVR es la calificación de progresión general en NFL Universe Football. Aumenta mediante recepciones limpias, tacleadas inteligentes, jugadas completadas, progresión de XP y rendimiento basado en la habilidad en partidos de 6v6 y de parque."
+      },
+      {
+        "question": "¿Es NFL Universe Football gratuito en Roblox?",
+        "answer": "Sí. NFL Universe Football es gratuito en Roblox. Los miembros de Roblox Premium y los miembros del grupo oficial de la comunidad también ganan un 25% más de Coins en NFL Universe Football."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar NFL Universe Football?",
+    "description": "¡Únete a la comunidad de NFL Universe Football en Discord para obtener códigos, actualizaciones, consejos de Ranked Park y discusiones de equipos!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de NFL Universe Football",
+    "description": "Tu centro de recursos completo para códigos, controles, equipos, estadios, builds, Ranked Park y actualizaciones de NFL Universe Football.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Jugar en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 NFL Universe Football Wiki. No afiliado con Voldex, la NFL ni los desarrolladores de NFL Universe Football.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de NFL Universe Football",
+      "description": "Códigos de NFL Universe Football activos y expirados con recompensas, pasos para canjear y notas de fuentes oficiales.",
+      "metaTitle": "Códigos de NFL Universe Football - Códigos activos y expirados",
+      "metaDescription": "Todos los códigos actuales de NFL Universe Football con Pro Packs, Coins y recompensas de eventos, además de pasos para canjear y fuentes oficiales.",
+      "categoryLabel": "CÓDIGOS Y RECOMPENSAS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de NFL Universe Football se canjean en el juego por Pro Packs, Coins, paquetes de recompensas gratuitos y artículos de eventos limitados de los ciclos de actualización oficiales y canales sociales.",
+      "why": "¿Por qué revisar los códigos?",
+      "whySteps": {
+        "step1Title": "Reclamar recompensas gratuitas",
+        "step1Description": "Canjea códigos activos por Pro Packs, Coins y artículos de eventos",
+        "step2Title": "Rastrear expiración",
+        "step2Description": "Mantén los códigos expirados como referencia para recompensas de eventos antiguos",
+        "step3Title": "Verificar fuentes",
+        "step3Description": "Confirma los códigos con los canales oficiales de Roblox, Discord y redes sociales"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    },
+    "controls": {
+      "title": "Controles de NFL Universe Football",
+      "description": "Controles de PC y móviles para pasar, atrapar, correr, bloquear, taclear, patear y elegir jugadas.",
+      "metaTitle": "Controles de NFL Universe Football - Guía para PC y móviles",
+      "metaDescription": "Domina los controles de NFL Universe Football en Keyboard y móviles, cubriendo pases, recepciones, lanzamientos, tacleadas, patadas y cámara.",
+      "categoryLabel": "CONTROLES",
+      "whatIs": "¿Qué son los controles?",
+      "whatIsDescription": "Los controles de NFL Universe Football cubren movimiento, ofensiva, defensiva, equipos especiales, gestión de jugadas y acciones de cámara para jugadores de PC y móviles.",
+      "why": "¿Por qué aprender los controles?",
+      "whySteps": {
+        "step1Title": "Pasar y atrapar",
+        "step1Description": "Sincroniza lanzamientos, recepciones y jugadas disputadas en cada dispositivo",
+        "step2Title": "Defender y taclear",
+        "step2Description": "Lánzate, cubre a los receptores y fuerza paradas defensivas",
+        "step3Title": "Patear y elegir jugadas",
+        "step3Description": "Usa el medidor de patada y elige jugadas simples al principio"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    },
+    "positions": {
+      "title": "Posiciones de NFL Universe Football",
+      "description": "Guías de roles para Quarterback, Wide Receiver, back defensivo, Running Back, pateador y bloqueador.",
+      "metaTitle": "Posiciones de NFL Universe Football - QB, WR, DB y más",
+      "metaDescription": "Aprende cada posición de NFL Universe Football con deberes del rol, dificultad para principiantes, impacto en el partido y consejos de inicio.",
+      "categoryLabel": "POSICIONES",
+      "whatIs": "¿Qué son las posiciones?",
+      "whatIsDescription": "Las posiciones de NFL Universe Football explican las lecturas de Quarterback, rutas de receptores, cobertura defensiva, acarreos, patadas y roles de bloqueo.",
+      "why": "¿Por qué estudiar las posiciones?",
+      "whySteps": {
+        "step1Title": "Elige el rol correcto",
+        "step1Description": "Adapta tu estilo de juego a la mejor posición para principiantes",
+        "step2Title": "Aprende el tiempo de ejecución",
+        "step2Description": "Comienza con el receptor y el defensor antes del Quarterback",
+        "step3Title": "Aumenta el impacto en el partido",
+        "step3Description": "Comprende el valor de anotación y la utilidad del equipo por rol"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    },
+    "guide": {
+      "title": "Guía de NFL Universe Football",
+      "description": "Guías completas que cubren cómo jugar, conceptos básicos para principiantes, consejos para ganar, tutoriales y progresión para NFL Universe Football.",
+      "metaTitle": "Guía de NFL Universe Football - Cómo jugar, consejos y tutoriales",
+      "metaDescription": "Domina NFL Universe Football con guías para principiantes, consejos de juego, tutoriales y estrategias ganadoras para cada partido.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Las guías de NFL Universe Football desglosan la jugabilidad principal, los fundamentos para principiantes, los controles, el entrenamiento y las estrategias para ganar partidos en lecciones claras paso a paso.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Aprende lo básico",
+        "step1Description": "Comienza con cómo jugar y los fundamentos para principiantes",
+        "step2Title": "Mejora más rápido",
+        "step2Description": "Aplica consejos y ejercicios de entrenamiento para mejorar tu habilidad",
+        "step3Title": "Gana más juegos",
+        "step3Description": "Usa estrategias probadas para dominar cada partido"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    },
+    "ranked": {
+      "title": "NFL Universe Football Clasificatorio",
+      "description": "Guías del modo clasificatorio que cubren rangos, tablas de clasificación, partidos de parque, parque competitivo, rachas de victorias y el ascenso de Bronce a Leyenda.",
+      "metaTitle": "NFL Universe Football Clasificatorio - Rangos, tabla de clasificación y Leyenda",
+      "metaDescription": "Asciende en el modo clasificatorio de NFL Universe Football de Bronce a Leyenda con guías de rango, consejos para la tabla de clasificación, partidos de parque y estrategias de racha de victorias.",
+      "categoryLabel": "CLASIFICATORIO",
+      "whatIs": "¿Qué es el modo clasificatorio?",
+      "whatIsDescription": "El modo clasificatorio de NFL Universe Football te empareja contra otros jugadores en juegos de parque y parque competitivo, permitiéndote ascender desde Bronce hasta Leyenda.",
+      "why": "¿Por qué jugar el modo clasificatorio?",
+      "whySteps": {
+        "step1Title": "Asciende en los rangos",
+        "step1Description": "Progresa desde Bronce a través de los niveles hasta Leyenda",
+        "step2Title": "Sigue la tabla de clasificación",
+        "step2Description": "Compara tu rango y racha de victorias con los mejores jugadores",
+        "step3Title": "Domina el parque y el competitivo",
+        "step3Description": "Gana juegos de parque y parque competitivo para obtener puntos de clasificación"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    },
+    "items": {
+      "title": "Objetos de NFL Universe Football",
+      "description": "Guías de objetos y economía que cubren sobres, Coins, tienda, gamepasses, valores RAP y cómo comprar y abrir sobres.",
+      "metaTitle": "Objetos de NFL Universe Football - Sobres, Coins, tienda y gamepasses",
+      "metaDescription": "Aprende sobre los objetos, sobres, Coins, tienda, gamepasses y valores RAP de NFL Universe Football con guías de compra y apertura de sobres.",
+      "categoryLabel": "OBJETOS",
+      "whatIs": "¿Qué son los objetos?",
+      "whatIsDescription": "Los objetos de NFL Universe Football incluyen sobres, Coins, gamepasses y equipamiento de la tienda que mejoran a tu jugador, aumentan el valor y desbloquean nuevo contenido.",
+      "why": "¿Por qué entender los objetos?",
+      "whySteps": {
+        "step1Title": "Abre sobres de forma inteligente",
+        "step1Description": "Sabe cómo abrir sobres para obtener las mejores recompensas",
+        "step2Title": "Gestiona Coins y RAP",
+        "step2Description": "Gasta Coins sabiamente y realiza un seguimiento de los valores RAP de los objetos",
+        "step3Title": "Compra el equipamiento adecuado",
+        "step3Description": "Elige gamepasses y objetos de la tienda que se adapten a tu estilo de juego"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
+    }
   }
 }
