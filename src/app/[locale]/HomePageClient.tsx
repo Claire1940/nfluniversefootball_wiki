@@ -522,12 +522,12 @@ export default function HomePageClient({
           />
           <div className="space-y-8 scroll-reveal">
             {Object.entries(
-              t.modules.nflControlsAndGameplay.controls.reduce(
+              (t.modules.nflControlsAndGameplay.controls as any[]).reduce(
                 (groups: Record<string, any[]>, c: any) => {
                   (groups[c.category] ||= []).push(c);
                   return groups;
                 },
-                {},
+                {} as Record<string, any[]>,
               ),
             ).map(([category, controls]) => (
               <div key={category}>
