@@ -55,8 +55,13 @@ function main() {
   let total = 0
 
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    // content/ 不存在时输出空清单并正常退出（exit 0），而非 process.exit(1)。
+    // game-refactor Part3 删除 content/ 后内容为空是正常中间态；
+    // deploy-workers.yml 的 generate 步骤会运行本脚本，exit(1) 会导致整个 CI 构建失败。
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单 {}`)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    return
   }
 
   const locales = fs
