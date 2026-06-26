@@ -10,7 +10,14 @@
       "twitterDescription": "NFL Universe Football Wiki covers Roblox codes, controls, teams, stadiums, builds, and updates for the official NFL experience."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "ranked": "Ranked",
+    "positions": "Positions",
+    "controls": "Controls",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -779,26 +786,6 @@
       "featured": "Featured & Essential",
       "all": "All Articles"
     },
-    "beginner": {
-      "title": "NFL Universe Football Beginner Guide",
-      "description": "First match, role basics, OVR, coins, practice mode, and park play for new NFL Universe Football players.",
-      "metaTitle": "NFL Universe Football Beginner Guide - How to Play",
-      "metaDescription": "Start NFL Universe Football with team selection, practice mode, 6v6 matches, park play, OVR progression, and coin bonuses.",
-      "categoryLabel": "BEGINNER GUIDE",
-      "whatIs": "What is the Beginner Guide?",
-      "whatIsDescription": "NFL Universe Football beginner guides cover your first match, simple roles, 6v6 flow, park match types, and OVR progression for new Roblox football players.",
-      "why": "Why read the beginner guide?",
-      "whySteps": {
-        "step1Title": "Learn the Match Flow",
-        "step1Description": "Understand where to stand, when to run, and when to pass",
-        "step2Title": "Build OVR",
-        "step2Description": "Grow your overall rating through clean catches and smart tackles",
-        "step3Title": "Earn Coins",
-        "step3Description": "Stack Roblox Premium and community group coin bonuses"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Articles"
-    },
     "controls": {
       "title": "NFL Universe Football Controls",
       "description": "PC and mobile controls for passing, catching, running, blocking, tackling, kicking, and play calling.",
@@ -839,82 +826,62 @@
       "featured": "Featured & Essential",
       "all": "All Articles"
     },
-    "builds": {
-      "title": "NFL Universe Football Builds",
-      "description": "OVR progression, size tradeoffs, attributes, settings, and best build ideas for each role.",
-      "metaTitle": "NFL Universe Football Builds - Best Build & OVR Guide",
-      "metaDescription": "Optimize your NFL Universe Football build with OVR progression, size, attributes, settings, and role-specific build suggestions.",
-      "categoryLabel": "BUILDS & OVR",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "NFL Universe Football builds cover OVR progression, height and size tradeoffs, attribute focus, settings, and the best build direction for each role.",
-      "why": "Why plan a build?",
+    "guide": {
+      "title": "NFL Universe Football Guide",
+      "description": "Complete guides covering how to play, beginner basics, winning tips, tutorials, and progression for NFL Universe Football.",
+      "metaTitle": "NFL Universe Football Guide - How to Play, Tips & Tutorials",
+      "metaDescription": "Master NFL Universe Football with beginner guides, gameplay tips, tutorials, and winning strategies for every match.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "NFL Universe Football guides break down core gameplay, beginner fundamentals, controls, training, and match-winning strategies into clear, step-by-step lessons.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Grow OVR",
-        "step1Description": "Turn clean plays and XP into a higher overall rating",
-        "step2Title": "Choose Size",
-        "step2Description": "Balance height and size for your position",
-        "step3Title": "Tune Settings",
-        "step3Description": "Match controls and display settings to your playstyle"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Start with how to play and beginner fundamentals",
+        "step2Title": "Improve Faster",
+        "step2Description": "Apply tips and training drills to raise your skill",
+        "step3Title": "Win More Games",
+        "step3Description": "Use proven strategies to dominate every match"
       },
       "featured": "Featured & Essential",
       "all": "All Articles"
     },
-    "teams": {
-      "title": "NFL Universe Football Teams",
-      "description": "All 32 NFL teams, official uniforms, team merch, and how to pick your favorite team.",
-      "metaTitle": "NFL Universe Football Teams - All 32 NFL Teams & Uniforms",
-      "metaDescription": "Browse all 32 NFL teams in NFL Universe Football with official uniforms, team merch, and favorite team selection.",
-      "categoryLabel": "TEAMS & UNIFORMS",
-      "whatIs": "What are Teams?",
-      "whatIsDescription": "NFL Universe Football teams cover all 32 NFL franchises with official uniforms, stadiums, and team selection for matches.",
-      "why": "Why pick a team?",
+    "ranked": {
+      "title": "NFL Universe Football Ranked",
+      "description": "Ranked mode guides covering ranks, leaderboards, park matches, comp park, win streaks, and the climb from Bronze to Legend.",
+      "metaTitle": "NFL Universe Football Ranked - Ranks, Leaderboard & Legend",
+      "metaDescription": "Climb NFL Universe Football ranked from Bronze to Legend with rank guides, leaderboard tips, park matches, and win streak strategies.",
+      "categoryLabel": "RANKED",
+      "whatIs": "What is Ranked?",
+      "whatIsDescription": "NFL Universe Football ranked mode matches you against other players in park and comp park games, letting you climb from Bronze up to Legend.",
+      "why": "Why play ranked?",
       "whySteps": {
-        "step1Title": "Play Any Team",
-        "step1Description": "Choose from all 32 NFL teams in every match",
-        "step2Title": "Wear Uniforms",
-        "step2Description": "Show official NFL uniforms and colors",
-        "step3Title": "Find Merch",
-        "step3Description": "Collect team-themed items and gear"
+        "step1Title": "Climb the Ranks",
+        "step1Description": "Progress from Bronze through tiers up to Legend",
+        "step2Title": "Track the Leaderboard",
+        "step2Description": "Compare your rank and win streak with top players",
+        "step3Title": "Master Park & Comp",
+        "step3Description": "Win park and comp park games to gain ranked points"
       },
       "featured": "Featured & Essential",
       "all": "All Articles"
     },
-    "maps": {
-      "title": "NFL Universe Football Maps",
-      "description": "All 32 NFL stadiums, park layout, practice mode, and the trade hub locations.",
-      "metaTitle": "NFL Universe Football Maps - Stadiums, Park & Practice",
-      "metaDescription": "Explore NFL Universe Football maps including all 32 NFL stadiums, park, practice mode, and the trade hub.",
-      "categoryLabel": "MAPS & STADIUMS",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "NFL Universe Football maps cover all 32 NFL stadiums, park match types, practice mode, and the trade hub where features are found.",
-      "why": "Why explore maps?",
+    "items": {
+      "title": "NFL Universe Football Items",
+      "description": "Item and economy guides covering packs, coins, shop, gamepasses, RAP values, and how to buy and open packs.",
+      "metaTitle": "NFL Universe Football Items - Packs, Coins, Shop & Gamepasses",
+      "metaDescription": "Learn NFL Universe Football items, packs, coins, shop, gamepasses, and RAP values with buying and pack-opening guides.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are Items?",
+      "whatIsDescription": "NFL Universe Football items include packs, coins, gamepasses, and shop gear that upgrade your player, build value, and unlock new content.",
+      "why": "Why understand items?",
       "whySteps": {
-        "step1Title": "Know the Stadiums",
-        "step1Description": "Learn all 32 NFL stadium layouts",
-        "step2Title": "Use Park",
-        "step2Description": "Practice smaller matchups and ranked play",
-        "step3Title": "Find the Trade Hub",
-        "step3Description": "Locate practice mode and trade features"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Articles"
-    },
-    "updates": {
-      "title": "NFL Universe Football Updates",
-      "description": "Season changes, ranked park updates, patch notes, events, and limited content.",
-      "metaTitle": "NFL Universe Football Updates - Season, Ranked & Patch Notes",
-      "metaDescription": "Track NFL Universe Football updates including Season changes, Ranked in Park, patch notes, first down animations, and limited events.",
-      "categoryLabel": "UPDATES & SEASONS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "NFL Universe Football updates cover seasons like Season 6, Ranked in Park, patch notes, first down animations, and limited events.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Track Seasons",
-        "step1Description": "Stay current with season changes and rewards",
-        "step2Title": "Play Ranked",
-        "step2Description": "Jump into Ranked in Park matchmaking",
-        "step3Title": "Catch Events",
-        "step3Description": "Claim limited event content and cosmetics"
+        "step1Title": "Open Packs Smart",
+        "step1Description": "Know how to open packs for the best rewards",
+        "step2Title": "Manage Coins & RAP",
+        "step2Description": "Spend coins wisely and track item RAP values",
+        "step3Title": "Buy the Right Gear",
+        "step3Description": "Pick gamepasses and shop items that fit your build"
       },
       "featured": "Featured & Essential",
       "all": "All Articles"

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "ranked": "Ranked",
+    "positions": "Positions",
+    "controls": "Controls",
+    "items": "Items"
+  }
+}

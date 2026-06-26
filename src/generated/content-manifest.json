@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "codes": [
+      {
+        "slug": "NFL-Universe-Football-codes",
+        "file": "NFL-Universe-Football-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "NFL-Universe-Football-controls",
+        "file": "NFL-Universe-Football-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-block",
+        "file": "NFL-Universe-Football-how-to-block"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-catch",
+        "file": "NFL-Universe-Football-how-to-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-tackle",
+        "file": "NFL-Universe-Football-how-to-tackle"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-truck",
+        "file": "NFL-Universe-Football-how-to-truck"
+      },
+      {
+        "slug": "NFL-Universe-Football-one-handed-catch",
+        "file": "NFL-Universe-Football-one-handed-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-ps5-controls",
+        "file": "NFL-Universe-Football-ps5-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-xbox-controls",
+        "file": "NFL-Universe-Football-xbox-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NFL-Universe-Football-beginner-guide",
+        "file": "NFL-Universe-Football-beginner-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-guide",
+        "file": "NFL-Universe-Football-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-improve",
+        "file": "NFL-Universe-Football-how-to-improve"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-play",
+        "file": "NFL-Universe-Football-how-to-play"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-win-every-game",
+        "file": "NFL-Universe-Football-how-to-win-every-game"
+      },
+      {
+        "slug": "NFL-Universe-Football-tips",
+        "file": "NFL-Universe-Football-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-tutorial",
+        "file": "NFL-Universe-Football-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "NFL-Universe-Football-buy-items",
+        "file": "NFL-Universe-Football-buy-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-coins",
+        "file": "NFL-Universe-Football-coins"
+      },
+      {
+        "slug": "NFL-Universe-Football-gamepasses",
+        "file": "NFL-Universe-Football-gamepasses"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-open-packs",
+        "file": "NFL-Universe-Football-how-to-open-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-items",
+        "file": "NFL-Universe-Football-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-packs",
+        "file": "NFL-Universe-Football-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-rap",
+        "file": "NFL-Universe-Football-rap"
+      },
+      {
+        "slug": "NFL-Universe-Football-shop",
+        "file": "NFL-Universe-Football-shop"
+      }
+    ],
+    "positions": [
+      {
+        "slug": "NFL-Universe-Football-best-build",
+        "file": "NFL-Universe-Football-best-build"
+      },
+      {
+        "slug": "NFL-Universe-Football-height-and-weight",
+        "file": "NFL-Universe-Football-height-and-weight"
+      },
+      {
+        "slug": "NFL-Universe-Football-position-priority",
+        "file": "NFL-Universe-Football-position-priority"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb-tips",
+        "file": "NFL-Universe-Football-qb-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb",
+        "file": "NFL-Universe-Football-qb"
+      },
+      {
+        "slug": "NFL-Universe-Football-rb",
+        "file": "NFL-Universe-Football-rb"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr-tutorial",
+        "file": "NFL-Universe-Football-wr-tutorial"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr",
+        "file": "NFL-Universe-Football-wr"
+      }
+    ],
+    "ranked": [
+      {
+        "slug": "NFL-Universe-Football-bronze-to-legend",
+        "file": "NFL-Universe-Football-bronze-to-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-comp-park",
+        "file": "NFL-Universe-Football-comp-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-leaderboard",
+        "file": "NFL-Universe-Football-leaderboard"
+      },
+      {
+        "slug": "NFL-Universe-Football-legend",
+        "file": "NFL-Universe-Football-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-park",
+        "file": "NFL-Universe-Football-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-ranked",
+        "file": "NFL-Universe-Football-ranked"
+      },
+      {
+        "slug": "NFL-Universe-Football-rankings",
+        "file": "NFL-Universe-Football-rankings"
+      },
+      {
+        "slug": "NFL-Universe-Football-win-streak",
+        "file": "NFL-Universe-Football-win-streak"
+      }
+    ]
+  },
+  "en": {
+    "codes": [
+      {
+        "slug": "NFL-Universe-Football-codes",
+        "file": "NFL-Universe-Football-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "NFL-Universe-Football-controls",
+        "file": "NFL-Universe-Football-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-block",
+        "file": "NFL-Universe-Football-how-to-block"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-catch",
+        "file": "NFL-Universe-Football-how-to-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-tackle",
+        "file": "NFL-Universe-Football-how-to-tackle"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-truck",
+        "file": "NFL-Universe-Football-how-to-truck"
+      },
+      {
+        "slug": "NFL-Universe-Football-one-handed-catch",
+        "file": "NFL-Universe-Football-one-handed-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-ps5-controls",
+        "file": "NFL-Universe-Football-ps5-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-xbox-controls",
+        "file": "NFL-Universe-Football-xbox-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NFL-Universe-Football-beginner-guide",
+        "file": "NFL-Universe-Football-beginner-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-guide",
+        "file": "NFL-Universe-Football-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-improve",
+        "file": "NFL-Universe-Football-how-to-improve"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-play",
+        "file": "NFL-Universe-Football-how-to-play"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-win-every-game",
+        "file": "NFL-Universe-Football-how-to-win-every-game"
+      },
+      {
+        "slug": "NFL-Universe-Football-tips",
+        "file": "NFL-Universe-Football-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-tutorial",
+        "file": "NFL-Universe-Football-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "NFL-Universe-Football-buy-items",
+        "file": "NFL-Universe-Football-buy-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-coins",
+        "file": "NFL-Universe-Football-coins"
+      },
+      {
+        "slug": "NFL-Universe-Football-gamepasses",
+        "file": "NFL-Universe-Football-gamepasses"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-open-packs",
+        "file": "NFL-Universe-Football-how-to-open-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-items",
+        "file": "NFL-Universe-Football-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-packs",
+        "file": "NFL-Universe-Football-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-rap",
+        "file": "NFL-Universe-Football-rap"
+      },
+      {
+        "slug": "NFL-Universe-Football-shop",
+        "file": "NFL-Universe-Football-shop"
+      }
+    ],
+    "positions": [
+      {
+        "slug": "NFL-Universe-Football-best-build",
+        "file": "NFL-Universe-Football-best-build"
+      },
+      {
+        "slug": "NFL-Universe-Football-height-and-weight",
+        "file": "NFL-Universe-Football-height-and-weight"
+      },
+      {
+        "slug": "NFL-Universe-Football-position-priority",
+        "file": "NFL-Universe-Football-position-priority"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb-tips",
+        "file": "NFL-Universe-Football-qb-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb",
+        "file": "NFL-Universe-Football-qb"
+      },
+      {
+        "slug": "NFL-Universe-Football-rb",
+        "file": "NFL-Universe-Football-rb"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr-tutorial",
+        "file": "NFL-Universe-Football-wr-tutorial"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr",
+        "file": "NFL-Universe-Football-wr"
+      }
+    ],
+    "ranked": [
+      {
+        "slug": "NFL-Universe-Football-bronze-to-legend",
+        "file": "NFL-Universe-Football-bronze-to-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-comp-park",
+        "file": "NFL-Universe-Football-comp-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-leaderboard",
+        "file": "NFL-Universe-Football-leaderboard"
+      },
+      {
+        "slug": "NFL-Universe-Football-legend",
+        "file": "NFL-Universe-Football-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-park",
+        "file": "NFL-Universe-Football-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-ranked",
+        "file": "NFL-Universe-Football-ranked"
+      },
+      {
+        "slug": "NFL-Universe-Football-rankings",
+        "file": "NFL-Universe-Football-rankings"
+      },
+      {
+        "slug": "NFL-Universe-Football-win-streak",
+        "file": "NFL-Universe-Football-win-streak"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "NFL-Universe-Football-codes",
+        "file": "NFL-Universe-Football-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "NFL-Universe-Football-controls",
+        "file": "NFL-Universe-Football-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-block",
+        "file": "NFL-Universe-Football-how-to-block"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-catch",
+        "file": "NFL-Universe-Football-how-to-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-tackle",
+        "file": "NFL-Universe-Football-how-to-tackle"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-truck",
+        "file": "NFL-Universe-Football-how-to-truck"
+      },
+      {
+        "slug": "NFL-Universe-Football-one-handed-catch",
+        "file": "NFL-Universe-Football-one-handed-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-ps5-controls",
+        "file": "NFL-Universe-Football-ps5-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-xbox-controls",
+        "file": "NFL-Universe-Football-xbox-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NFL-Universe-Football-beginner-guide",
+        "file": "NFL-Universe-Football-beginner-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-guide",
+        "file": "NFL-Universe-Football-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-improve",
+        "file": "NFL-Universe-Football-how-to-improve"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-play",
+        "file": "NFL-Universe-Football-how-to-play"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-win-every-game",
+        "file": "NFL-Universe-Football-how-to-win-every-game"
+      },
+      {
+        "slug": "NFL-Universe-Football-tips",
+        "file": "NFL-Universe-Football-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-tutorial",
+        "file": "NFL-Universe-Football-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "NFL-Universe-Football-buy-items",
+        "file": "NFL-Universe-Football-buy-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-coins",
+        "file": "NFL-Universe-Football-coins"
+      },
+      {
+        "slug": "NFL-Universe-Football-gamepasses",
+        "file": "NFL-Universe-Football-gamepasses"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-open-packs",
+        "file": "NFL-Universe-Football-how-to-open-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-items",
+        "file": "NFL-Universe-Football-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-packs",
+        "file": "NFL-Universe-Football-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-rap",
+        "file": "NFL-Universe-Football-rap"
+      },
+      {
+        "slug": "NFL-Universe-Football-shop",
+        "file": "NFL-Universe-Football-shop"
+      }
+    ],
+    "positions": [
+      {
+        "slug": "NFL-Universe-Football-best-build",
+        "file": "NFL-Universe-Football-best-build"
+      },
+      {
+        "slug": "NFL-Universe-Football-height-and-weight",
+        "file": "NFL-Universe-Football-height-and-weight"
+      },
+      {
+        "slug": "NFL-Universe-Football-position-priority",
+        "file": "NFL-Universe-Football-position-priority"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb-tips",
+        "file": "NFL-Universe-Football-qb-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb",
+        "file": "NFL-Universe-Football-qb"
+      },
+      {
+        "slug": "NFL-Universe-Football-rb",
+        "file": "NFL-Universe-Football-rb"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr-tutorial",
+        "file": "NFL-Universe-Football-wr-tutorial"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr",
+        "file": "NFL-Universe-Football-wr"
+      }
+    ],
+    "ranked": [
+      {
+        "slug": "NFL-Universe-Football-bronze-to-legend",
+        "file": "NFL-Universe-Football-bronze-to-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-comp-park",
+        "file": "NFL-Universe-Football-comp-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-leaderboard",
+        "file": "NFL-Universe-Football-leaderboard"
+      },
+      {
+        "slug": "NFL-Universe-Football-legend",
+        "file": "NFL-Universe-Football-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-park",
+        "file": "NFL-Universe-Football-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-ranked",
+        "file": "NFL-Universe-Football-ranked"
+      },
+      {
+        "slug": "NFL-Universe-Football-rankings",
+        "file": "NFL-Universe-Football-rankings"
+      },
+      {
+        "slug": "NFL-Universe-Football-win-streak",
+        "file": "NFL-Universe-Football-win-streak"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "NFL-Universe-Football-codes",
+        "file": "NFL-Universe-Football-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "NFL-Universe-Football-controls",
+        "file": "NFL-Universe-Football-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-block",
+        "file": "NFL-Universe-Football-how-to-block"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-catch",
+        "file": "NFL-Universe-Football-how-to-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-tackle",
+        "file": "NFL-Universe-Football-how-to-tackle"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-truck",
+        "file": "NFL-Universe-Football-how-to-truck"
+      },
+      {
+        "slug": "NFL-Universe-Football-one-handed-catch",
+        "file": "NFL-Universe-Football-one-handed-catch"
+      },
+      {
+        "slug": "NFL-Universe-Football-ps5-controls",
+        "file": "NFL-Universe-Football-ps5-controls"
+      },
+      {
+        "slug": "NFL-Universe-Football-xbox-controls",
+        "file": "NFL-Universe-Football-xbox-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NFL-Universe-Football-beginner-guide",
+        "file": "NFL-Universe-Football-beginner-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-guide",
+        "file": "NFL-Universe-Football-guide"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-improve",
+        "file": "NFL-Universe-Football-how-to-improve"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-play",
+        "file": "NFL-Universe-Football-how-to-play"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-win-every-game",
+        "file": "NFL-Universe-Football-how-to-win-every-game"
+      },
+      {
+        "slug": "NFL-Universe-Football-tips",
+        "file": "NFL-Universe-Football-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-tutorial",
+        "file": "NFL-Universe-Football-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "NFL-Universe-Football-buy-items",
+        "file": "NFL-Universe-Football-buy-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-coins",
+        "file": "NFL-Universe-Football-coins"
+      },
+      {
+        "slug": "NFL-Universe-Football-gamepasses",
+        "file": "NFL-Universe-Football-gamepasses"
+      },
+      {
+        "slug": "NFL-Universe-Football-how-to-open-packs",
+        "file": "NFL-Universe-Football-how-to-open-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-items",
+        "file": "NFL-Universe-Football-items"
+      },
+      {
+        "slug": "NFL-Universe-Football-packs",
+        "file": "NFL-Universe-Football-packs"
+      },
+      {
+        "slug": "NFL-Universe-Football-rap",
+        "file": "NFL-Universe-Football-rap"
+      },
+      {
+        "slug": "NFL-Universe-Football-shop",
+        "file": "NFL-Universe-Football-shop"
+      }
+    ],
+    "positions": [
+      {
+        "slug": "NFL-Universe-Football-best-build",
+        "file": "NFL-Universe-Football-best-build"
+      },
+      {
+        "slug": "NFL-Universe-Football-height-and-weight",
+        "file": "NFL-Universe-Football-height-and-weight"
+      },
+      {
+        "slug": "NFL-Universe-Football-position-priority",
+        "file": "NFL-Universe-Football-position-priority"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb-tips",
+        "file": "NFL-Universe-Football-qb-tips"
+      },
+      {
+        "slug": "NFL-Universe-Football-qb",
+        "file": "NFL-Universe-Football-qb"
+      },
+      {
+        "slug": "NFL-Universe-Football-rb",
+        "file": "NFL-Universe-Football-rb"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr-tutorial",
+        "file": "NFL-Universe-Football-wr-tutorial"
+      },
+      {
+        "slug": "NFL-Universe-Football-wr",
+        "file": "NFL-Universe-Football-wr"
+      }
+    ],
+    "ranked": [
+      {
+        "slug": "NFL-Universe-Football-bronze-to-legend",
+        "file": "NFL-Universe-Football-bronze-to-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-comp-park",
+        "file": "NFL-Universe-Football-comp-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-leaderboard",
+        "file": "NFL-Universe-Football-leaderboard"
+      },
+      {
+        "slug": "NFL-Universe-Football-legend",
+        "file": "NFL-Universe-Football-legend"
+      },
+      {
+        "slug": "NFL-Universe-Football-park",
+        "file": "NFL-Universe-Football-park"
+      },
+      {
+        "slug": "NFL-Universe-Football-ranked",
+        "file": "NFL-Universe-Football-ranked"
+      },
+      {
+        "slug": "NFL-Universe-Football-rankings",
+        "file": "NFL-Universe-Football-rankings"
+      },
+      {
+        "slug": "NFL-Universe-Football-win-streak",
+        "file": "NFL-Universe-Football-win-streak"
+      }
+    ]
+  }
+}
