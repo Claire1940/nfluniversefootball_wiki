@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "NFL Universe Football Wiki - Codes, Teams & Builds",
+      "description": "NFL Universe Football Wiki covers Roblox codes, controls, teams, stadiums, builds, ranked park, updates, and beginner tips for better games.",
+      "keywords": "NFL Universe Football, Roblox, codes, controls, teams, builds, ranked",
+      "ogTitle": "NFL Universe Football Wiki - Codes, Teams & Builds",
+      "ogDescription": "NFL Universe Football Wiki covers Roblox codes, controls, teams, stadiums, builds, ranked park, updates, and beginner tips for better games.",
+      "twitterTitle": "NFL Universe Football Wiki - Codes, Teams & Builds",
+      "twitterDescription": "NFL Universe Football Wiki covers Roblox codes, controls, teams, stadiums, builds, and updates for the official NFL experience."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Official NFL Roblox Football Experience",
+    "title": "NFL Universe Football Wiki",
+    "description": "Play Roblox football with all 32 NFL teams, official uniforms, stadiums, ranked park, OVR progression, celebrations, codes, and team-based competitive matches.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "929M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "13.5K+",
+        "label": "24h Peak CCU"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "32",
+        "label": "NFL Teams"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "32",
+        "label": "NFL Stadiums"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play NFL Universe Football?",
+    "description": "Join the NFL Universe Football community on Discord for codes, updates, ranked park tips, and team discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "NFL Universe Football Wiki",
+    "description": "Your complete resource hub for NFL Universe Football codes, controls, teams, stadiums, builds, ranked park, and updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 NFL Universe Football Wiki. Not affiliated with Voldex, the NFL, or the developers of NFL Universe Football.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

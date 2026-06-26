@@ -5,7 +5,7 @@ import { routing, type Locale } from '@/i18n/routing'
 // output:'export' 要求路由处理器显式声明静态
 export const dynamic = 'force-static'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nfluniversefootball.wiki'
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
